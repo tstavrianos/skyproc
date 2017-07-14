@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project name="skyproc" default="default" basedir=".">
+    <description>Builds, tests, and runs the project skyproc.</description>
+    <import file="nbproject/build-impl.xml"/>
+<target name="-post-jar">
+
+    <!-- Change the value to the name of the final jar without .jar -->
+    <property name="store.jar.name" value="skyproc"/>
+
+    <!-- don't edit below this line -->
+    <property name="store.dir" value="dist"/>
+    <property name="temp.dir" value="temp"/>
+    <property name="store.jar" value="${store.dir}/${store.jar.name}.jar"/>
+
+    <echo message="Packaging ${application.title} into a single JAR at ${store.jar}"/>
+
+    <delete dir="${temp.dir}"/>
+    <mkdir dir="${temp.dir}"/>
+
+    <jar destfile="${temp.dir}/temp_final.jar" filesetmanifest="skip">
+        <zipgroupfileset dir="dist" includes="*.jar"/>
+        <zipgroupfileset dir="dist/lib" includes="*.jar"/>
+
+        <manifest>
+            <attribute name="Main-Class" value="${main.class}"/>
+        </manifest>
+    </jar>
+
+    <delete dir="${store.dir}"/>
+
+    <zip destfile="${store.jar}">
+        <zipfileset src="${temp.dir}/temp_final.jar"
+        excludes="META-INF/*.SF, META-INF/*.DSA, META-INF/*.RSA"/>
+    </zip>
+
+    <delete dir="${temp.dir}"/>
+
+</target>
+    <target name="SkyProc-Lib" description="Builds a jar for distribution." depends="jar">
+
+        <!-- Change the value of this property to be the name of your JAR,
+             minus the .jar extension. It should not have spaces.
+             <property name="store.jar.name" value="MyJarName"/>
+        -->
+        <property name="store.jar.name" value="skyproc"/>
+
+
+        <!-- don't edit below this line -->
+
+        <property name="store.dir" value="store"/>
+        <property name="store.jar" value="${store.dir}/${store.jar.name}.jar"/>
+
+        <echo message="Packaging ${application.title} into a single JAR at ${store.jar}"/>
+
+        <delete dir="${store.dir}"/>
+        <mkdir dir="${store.dir}"/>
+
+        <jar destfile="${store.dir}/temp_final.jar" filesetmanifest="skip">
+            <zipgroupfileset dir="dist" includes="*.jar"/>
+             <!-- <zipgroupfileset dir="dist/lib" includes="*.jar"/> -->
+            
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+                <attribute name="Class-Path" value="lib/Lev.jar lib/WinRegistry.jar"/>
+                <attribute name="Specification-Title" value="SkyProc"/>
+                <attribute name="Specification-Version" value="${version}"/>
+            </manifest>
+        </jar>
+
+        <zip destfile="${store.jar}">
+            <zipfileset src="${store.dir}/temp_final.jar"
+                        excludes="META-INF/*.SF, META-INF/*.DSA, META-INF/*.RSA, *.zip"/>
+             <!-- <fileset dir="dist/src"></fileset> -->
+        </zip>
+
+        <delete file="${store.dir}/temp_final.jar"/>
+
+    </target>
+    <target name="SUM-dist" description="Builds a jar for distribution." depends="jar">
+
+        <!-- Change the value of this property to be the name of your JAR,
+             minus the .jar extension. It should not have spaces.
+             <property name="store.jar.name" value="MyJarName"/>
+        -->
+	<property name="store.jar.name" value="SUM"/>
+
+
+        <!-- don't edit below this line -->
+
+	<property name="store.dir" value="store"/>
+	<property name="store.jar" value="${store.dir}/${store.jar.name}.jar"/>
+
+	<echo message="Packaging ${application.title} into a single JAR at ${store.jar}"/>
+
+	<delete dir="${store.dir}"/>
+	<mkdir dir="${store.dir}"/>
+
+	<jar destfile="${store.dir}/temp_final.jar" filesetmanifest="skip">
+	    <zipgroupfileset dir="dist" includes="*.jar"/>
+	    <zipgroupfileset dir="dist/lib" includes="*.jar"/>
+
+	    <manifest>
+		<attribute name="Main-Class" value="${main.class}"/>
+	    </manifest>
+	</jar>
+
+	<zip destfile="${store.jar}">
+	    <zipfileset src="${store.dir}/temp_final.jar"
+            excludes="META-INF/*.SF, META-INF/*.DSA, META-INF/*.RSA"/>
+	</zip>
+
+	<delete file="${store.dir}/temp_final.jar"/>
+
+    </target>
+    <target description="bundle sources in a zip" name="package-sources">
+        <zip basedir="src" destfile="dist/src/${ant.project.name}-sources.zip"/>
+    </target>
+    <target depends="-javadoc-build" description="bundle javadoc in a jar" name="package-doc">
+        <jar basedir="dist/javadoc" destfile="dist/${ant.project.name}-javadoc.jar"/>
+    </target>
+</project>

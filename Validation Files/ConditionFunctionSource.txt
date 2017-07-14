@@ -1,0 +1,170 @@
+8,	GetAngle					Int: Axis
+14,	GetActorValue,					FormID: Actor Value
+25,	IsMoving,
+26,	IsTurning,
+36,	MenuMode,					Int: Mode
+41,	GetClothingValue,
+42,	SameFaction,					FormID: Reference
+43,	SameRace,					FormID: Reference
+44,	SameSex,					FormID: Reference
+61,	GetAlarmed,	
+62,	IsRaining,
+63,	GetAttacked,		
+75,	IsSnowing,
+81,	IsRotating,
+101,	IsWeaponMagicOut,
+102,	IsTorchOut,
+103,	IsShieldOut,
+106,	IsFacingUp,
+109,	IsWeaponSkillType,				FormID: Actor Value
+110,	GetCurrentAIPackage,		
+111,	IsWaiting,	
+112,	IsIdlePlaying,
+116,	IsIntimidatedbyPlayer,	
+117,	IsPlayerInRegion,				FormID: Region
+118,	GetActorAggroRadiusViolated,
+122,	GetCrime,					FormID: Reference, Int: Crime Type
+123,	IsGreetingPlayer,	
+125,	IsGuard,
+133,	SameFactionAsPC,
+134,	SameRaceAsPC,
+135,	SameSexAsPC,
+141,	IsTalking,
+143,	GetCurrentAIProcedure,	
+145,	IsTrespassing,			
+146,	IsInMyOwnedCell	
+150,	IsContinuingPackagePCNear,
+153,	CanHaveFlames,
+162,	IsCurrentFurnitureRef,				FormID: Reference
+163,	IsCurrentFurnitureObj				FormID: Form List
+175,	IsPCSleeping,
+176,	IsPCAMurderer,
+185,	IsSwimming,
+190,	GetAmountSoldStolen,
+219,	GetAnimAction,
+223,	IsSpellTarget,					FormID: Magic Item
+227,	GetCannibal,
+229,	GetClassDefaultMatch,
+248,	IsScenePlaying,					FormID: Scene (?)
+249,	IsInDialogueWithPlayer,
+262,	IsWarningAbout,				FormID: Form List
+263,	IsWeaponOut,
+265,	IsTimePassing,
+266,	IsPleasant,
+267,	IsCloudy,
+274,	IsSmallBump,
+277,	GetBaseActorValue,				FormID: Actor Value
+278,	IsOwner,					FormID: Actor
+280,	IsCellOwner,					FormID: Cell, FormID: Actor
+282,	IsHorseStolen,
+287,	IsRunning,
+289,	IsInCombat,					Int: (?)
+300,	IsInInterior,
+304,	IsWaterObject,
+309,	IsXBox,
+323,	GetCombatState,
+327,	IsRidingMount,
+329,	IsFleeing,
+332,	IsInDangerousWater,
+339,	IsPlayersLastRiddenMount,
+354,	IsEssential,
+358,	IsPlayerMovingIntoNewSpace,
+365,	IsChild,
+368,	IsPlayerActionActive,				Int: (?)
+370,	IsTalkingActivatorActor,				FormID: Reference
+372,	IsInList,						FormID: Form List
+375,	GetCrimeGoldViolent,				FormID: Faction
+376,	GetCrimeGoldNonviolent,			FormID: Faction
+391,	IsPC1stPerson,
+396,	GetCauseofDeath,	
+397,	IsLimbGone,					Int: Limb			
+398,	IsWeaponInList,					FormID: Form List
+402,	IsBribedbyPlayer,
+408,	IsKiller,						FormID: Reference
+409,	IsKillerObject,					FormID: Form List
+414,	Exists,						FormID: Reference
+429,	IsScenePackageRunning,
+450, 	IsLastIdlePlayed,				FormID: Idle Animation
+458,	GetActorCrimePlayerEnemy,
+459,	GetCrimeGold,					FormID: Faction
+463,	IsPlayerGrabbedRef,				FormID: Reference
+465,	IsLeftUp,
+476,	IsProtected,
+481,	IsSneaking,
+487,	IsCarryable,
+488,	GetConcussed,			
+493,	PlayerKnows,					FormID: Knowable Form	(?)
+497,	CanPayCrimeGold,				FormID: Faction
+500,	EPAlchemyGetMakingPoison,			
+501,	EPAlchemyEffectHasHeyword,			FormID: Keyword
+503,	GetAllowWorldInteractions,	
+513,	IsCombatTarget,					FormID: Reference
+520,	IsPS3,		
+521,	IsWin32,
+528,	IsInCriticalStage,				Int: Stage
+547,	IsGoreDisabled,
+550,	IsSceneActionComplete,				FormID: Scene, Int: (?)
+554,	GetActorsInHigh,
+562,	LocationHasKeyword,				FormID: Keyword
+563,	LocationHasRefType,				FormID: RefType (?)
+568,	IsSprinting,
+569,	IsBlocking,
+571,	GetCurrentCastingType,				Int: Casting Source
+572,	GetCurrentDeliveryType,				Int: Casting Source
+574,	GetAttackState,
+577,	IsCloserToAThanB,				FormID: Reference, FormID: Reference
+590,	IsInScene,
+595,	IsCurrentSpell,					FormID: Spell, Int: Casting Source
+596,	SpellHasKeyword,				Int: Casting Source, FormID: Keyword
+602,	IsWardState,					Int: Ward State
+603,	IsInSameCurrentLocAsRef,			FormID: Reference, FormID: Keyword
+604,	IsInSameCurrentLocAsRefAlias,			Alias: Quest Alias, FormID: Keyword (?)
+605,	LocAliasIsLocation,				Alias: Quest Alias, FormID: RefType (?)
+610,	LocAliasHasKeyword,				Alias: Quest Alias, FormID: Keyword (?)
+611,	IsNullPackageData,				Package Data (?)
+613,	IsFurnitureAnimType,				Int: Furniture Anim
+614,	IsFurnitureEntryType,				Int: Furniture Entry
+625,	IsLocationLoaded,				FormID: Location
+626,	IsLocAliasLoaded,				Alias: Quest Alias (?)
+627,	IsDualCasting,
+631,	IsEnteringInteractionQuick,
+632,	IsCasting,
+635,	IsInFavorState,
+637,	IsExitingInstant,
+638,	IsInFriendStatewithPlayer,
+640,	GetActorValuePercent,				FormID: Actor Value
+641,	IsUnique,
+644,	IsInFurnitureState,				Int: Anim
+650,	IsLinkedTo,					FormID: Reference, FormID: Keyword
+654,	GetBribeSuccess,
+656,	GetArrestedState,
+657,	GetArrestingActor,
+660,	EPTemperingItemHasKeyword,			FormID: Keyword
+673,	IsPowerAttacking,
+674,	IsLastHostileActor,
+676,	GetCurrentShoutVariation,
+678,	ShouldAttackKill,				FormID: Reference
+680,	GetActivationHeight,
+681,	EPModSkillUsage_IsAdvanceSkill,		FormID: Actor Value
+682, 	WornHasKeyword,				FormID: Keyword
+691,	EPModSkillUsage_AdvanceObjectHasKeyword,	FormID: Keyword
+692,	EPModSkillUsage_IsAdvanceAction,		Int: Skill Action
+693,	EPMagic_SpellHasKeyword,			FormID: Keyword
+696,	EPMagic_SpellHasSkill,				FormID: Actor Value
+700,	IsCommandedActor,
+701,	IsStaggered,
+702,	IsRecoiling,
+703,	IsExitingInteractionQuick,
+704,	IsPathing,
+707,	GetCombatTargetHasKeyword,			FormID: Keyword
+709,	GetCombatGroupMemberCount,
+710,	IsIgnoringCombat,
+713,	SpellHasCastingPerk,				FormID: Perk
+715,	IsUndead,
+718,	IsUnlockedDoor,
+719,	IsHostileToActor,				FormID: Reference
+721,	IsPoison,
+722, 	WornApparelHasKeywordCount,			FormID: Keyword
+724,	EffectWasDualCast,							
+726,	DoesNotExist,
+731,	CanFlyHere,

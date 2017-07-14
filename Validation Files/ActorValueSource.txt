@@ -1,0 +1,164 @@
+0	Aggression	AI	enum: unaggressive, aggressive, very aggressive, frenzied	0x000004B0
+1	Confidence	AI	Willingness to fight. enum: cowardly, cautious, average, brave, foolhardy.	0x000004B1
+2	Energy	AI		0x000004B2
+3	Morality	AI	enum: any crime, violence against enemies, property crime only, no crime	0x000004B3
+4	Mood	AI	enum: neutral, angry, fear, happy, sad, surprised, puzzled, disgusted	0x000004B4
+5	Assistance	AI	enum: helps nobody, helps allies, helps friends and allies	0x000004B5
+6	OneHanded	Skill		0x0000044C
+7	TwoHanded	Skill		0x0000044D
+8	Marksman	Skill		0x0000044E
+9	Block	Skill		0x0000044F
+10	Smithing	Skill		0x00000450
+11	HeavyArmor	Skill		0x00000451
+12	LightArmor	Skill		0x00000452
+13	Pickpocket	Skill		0x00000453
+14	Lockpicking	Skill		0x00000454
+15	Sneak	Skill		0x00000455
+16	Alchemy	Skill		0x00000456
+17	Speechcraft	Skill		0x00000457
+18	Alteration	Skill		0x00000458
+19	Conjuration	Skill		0x00000459
+20	Destruction	Skill		0x0000045A
+21	Illusion	Skill		0x0000045B
+22	Restoration	Skill		0x0000045C
+23	Enchanting	Skill		0x0000045D
+24	Health	Stat	Actual	0x000003E8
+25	Magicka	Stat	Actual	0x000003E9
+26	Stamina	Stat	Actual	0x000003EA
+27	HealRate	Mult	Non-combat regen rate	0x000003EB
+28	MagickaRate	Mult	Non-combat regen rate	0x000003EC
+29	StaminaRate	Mult	Non-combat regen rate	0x000003ED
+30	SpeedMult	Mult	Movement speed	0x000003EE
+31	InventoryWeight	Stat	collective weight of everything in your inventory	0x000003EF
+32	CarryWeight	Stat	max weight you can carry without being forced to walk	0x000003F0
+33	DragonRend	Toggle		0x00000640
+CritChance	Stat	your chance to score a critical hit	0x000003F1
+MeleeDamage	Stat	weapon damage	0x000003F2
+UnarmedDamage	Stat	hand-to-hand damage	0x000003F3
+Mass	Stat	hidden stat affects stagger etc	0x000003F4
+VoicePoints	unk		0x000003F5
+VoiceRate	unk		0x000003F6
+39	DamageResist	Resist	Armor rating (physical damage resist)	0x000005CE
+40	PoisonResist	Resist	Poison resistance	0x000005CF
+41	FireResist	Resist	Fire resistance	0x000005D0
+42	ElectricResist	Resist	Electricity resistance	0x000005D1
+43	FrostResist	Resist	Frost resistance	0x000005D2
+44	MagicResist	Resist	Magic resistance	0x000005D3
+45	DiseaseResist	Resist	Disease resistance	0x000005D4
+53	Paralysis	Status		0x000005DC
+54	Invisibility	Status		0x000005DD
+55	NightEye	Status		0x000005DE
+56	DetectLifeRange	Status		0x000005DF
+57	WaterBreathing	Status		
+58	WaterWalking	Status		
+59	IgnoreCrippledLimbs	unk		0x000005E2
+60	Fame	unk		0x000005E3
+61	Infamy	unk		0x000005E4
+62	JumpingBonus	unk		0x000005E5
+63	WardPower	unk		
+64	RightItemCharge	unk		
+65	LeftItemCharge	unk		
+66	EquippedItemCharge	unk		0x000005E7
+67	ArmorPerks	unk	Armor rating multiplier	0x000005E8
+68	ShieldPerks	unk		0x000005E9
+69	Variable01	unk		0x000005EB
+70	Variable02	unk		0x000005EC
+71	Variable03	unk		0x000005ED
+72	Variable04	unk		
+73	Variable05	unk		
+74	Variable06	unk		0x000005F0
+75	Variable07	unk		0x000005F1
+76	Variable08	unk		0x000005F2
+77	Variable09	unk		0x000005F3
+78	Variable10	unk	Slow Time Variable - (0.5 = slow time 25%) (0.25 = slow time 50%)	0x000005F4
+79	FavorActive	AI		0x000005F6
+80	FavorsPerDay	AI		0x000005F7
+81	FavorsPerDayTimer	AI		0x000005F8
+82	EquippedStaffCharge	unk		0x000005F9
+83	AbsorbChance	Stat	Magic Absorption	0x000005FA
+84	Blindness	Toggle		0x000005FB
+85	WeaponSpeedMult	Mod	Melee attack speed, Bow draw speed	
+86	ShoutRecoveryMult	Mod	How much are you waiting for shout recovery. 1 = 100%, 0.5 = 50% of original time..	0x000005FD
+87	BowStaggerBonus	Stat	Chance to Stagger (like lv2 force shout) enemy with bow.	0x000005FE
+88	Telekinesis	Toggle		0x000005FF
+89	FavorPointsBonus	AI		0x00000600
+90	LastBribedIntimidated	unk		0x00000601
+91	LastFlattered	unk		0x00000602
+92	MovementNoiseMult	Mod	AVMuffled	0x00000603
+93	BypassVendorStolenCheck	Toggle	sell stolen items to any vendor	0x00000604
+94	BypassVendorKeywordCheck	Toggle	sell non-stolen items of any type to any vendor	0x00000605
+95	WaitingForPlayer	AI	returns if follower is waiting for player	0x00000606
+96	OneHandedMod	Mod	Skill modifiers	0x00000607
+97	TwoHandedMod	Mod		0x00000608
+98	MarksmanMod	Mod		0x00000609
+99	BlockMod	Mod		0x0000060A
+100	SmithingMod	Mod		0x0000060B
+101	HeavyArmorMod	Mod		0x0000060C
+102	LightArmorMod	Mod		0x0000060D
+103	PickPocketMod	Mod		0x0000060E
+104	LockpickingMod	Mod		0x0000060F
+105	SneakMod	Mod		0x00000610
+106	AlchemyMod	Mod		0x00000611
+107	SpeechcraftMod	Mod		0x00000612
+108	AlterationMod	Mod		0x00000613
+109	ConjurationMod	Mod		0x00000614
+110	DestructionMod	Mod		0x00000615
+111	IllusionMod	Mod		0x00000616
+112	RestorationMod	Mod		0x00000617
+113	EnchantingMod	Mod		0x00000618
+114	OneHandedSkillAdvance	Exp		0x00000619
+115	TwoHandedSkillAdvance	Exp		0x0000061A
+116	MarksmanSkillAdvance	Exp		0x0000061B
+117	BlockSkillAdvance	Exp		0x0000061C
+118	SmithingSkillAdvance	Exp		0x0000061D
+119	HeavyArmorSkillAdvance	Exp		0x0000061E
+120	LightArmorSkillAdvance	Exp		0x0000061F
+121	PickPocketSkillAdvance	Exp		0x00000620
+122	LockpickingSkillAdvance	Exp		0x00000621
+123	SneakSkillAdvance	Exp		0x00000622
+124	AlchemySkillAdvance	Exp		0x00000623
+125	SpeechcraftSkillAdvance	Exp		0x00000624
+126	AlterationSkillAdvance	Exp		0x00000625
+127	ConjurationSkillAdvance	Exp		0x00000626
+128	DestructionSkillAdvance	Exp		0x00000627
+129	IllusionSkillAdvance	Exp		0x00000628
+130	RestorationSkillAdvance	Exp		0x00000629
+131	EnchantingSkillAdvance	Exp		0x0000062A
+132	LeftWeaponSpeedMult	Mult		0x0000062B
+133	DragonSouls	Stat	number of dragon souls absorbed	0x0000062C
+134	CombatHealthRegenMult	Mult	How much faster you heal in combat. Default is 0,7= 70% of normal heal rate.	0x0000062D
+135	OneHandedPowerMod	Mod	Doesn't actually raise skill just counts in checks (theoretically)	0x0000062E
+136	TwoHandedPowerMod	Mod		0x0000062F
+137	MarksmanPowerMod	Mod		0x00000630
+138	BlockPowerMod	Mod		0x00000631
+139	SmithingPowerMod	Mod		0x00000632
+140	HeavyArmorPowerMod	Mod		0x00000633
+141	LightArmorPowerMod	Mod		0x00000634
+142	PickPocketPowerMod	Mod		0x00000635
+143	LockpickingPowerMod	Mod		0x00000636
+144	SneakPowerMod	Mod		0x00000637
+145	AlchemyPowerMod	Mod		0x00000638
+146	SpeechcraftPowerMod	Mod		0x00000639
+147	AlterationPowerMod	Mod		0x0000063A
+148	ConjurationPowerMod	Mod		0x0000063B
+149	DestructionPowerMod	Mod		0x0000063C
+150	IllusionPowerMod	Mod		0x0000063D
+151	RestorationPowerMod	Mod		0x0000063E
+152	EnchantingPowerMod	Mod		0x0000063F
+154	AttackDamageMult	Mult		0x00000641
+155	HealRateMult	Mult	health regen rate	
+156	MagickaRateMult	Mult	magicka regen rate	
+157	StaminaRateMult	Mult	stamina regen rate	
+CombatHealthRegenMultMod	Mult	AVCombatHealthRegenMultMod	0x00000642
+CombatHealthRegenMultPowerMod	Mult	AVCombatHealthRegenMultPowerMod	0x00000643
+HealRatePowerMod	Mod	AVHealRatePowerMod	0x00000645
+MagickaRateMod	Mod	AVMagickaRateMod	0x00000646
+163	ReflectDamage	Stat	Chance	0x0000064A
+NormalWeaponsResist	unk	AVNormalWeaponsResist	0x000005D4
+PerceptionCondition	unk	AVPerceptionCondition	0x000005D5
+EnduranceCondition	unk	AVEnduranceCondition	0x000005D6
+LeftAttackCondition	unk	AVLeftAttackCondition	0x000005D7
+RightAttackCondition	unk	AVRightAttackCondition	0x000005D8
+LeftMobilityCondition	unk	AVLeftMobilityCondition	0x000005D9
+RightMobilityCondition	unk	AVRightMobilityCondition	0x000005DA
+BrainCondition	unk	AVBrainCondition	0x000005DB
