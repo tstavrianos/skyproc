@@ -35,7 +35,7 @@ public class SPGlobal {
      * Path and filename to look for the active plugins file.<br>
      * "/Skyrim/plugins.txt" by default.
      */
-    public static String pluginsListPath = "/Skyrim/plugins.txt";
+    public static String pluginsListPath = "/Skyrim Special Edition/plugins.txt";
     /**
      * Path to the Data/ folder to look for plugins to import/export.<br><br> By
      * default, this is set to "../../", meaning the patch has to be in a

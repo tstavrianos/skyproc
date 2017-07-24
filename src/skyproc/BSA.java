@@ -26,7 +26,7 @@ import java.nio.ByteBuffer;
  * @author Justin Swanson
  */
 public class BSA {
-
+    static Map<String, BSA> bsaLookup = new TreeMap<>();
     static ArrayList<BSA> resourceLoadOrder;
     static Map<ModListing, BSA> pluginLoadOrder = new TreeMap<>();
     static boolean pluginsLoaded = false;
@@ -520,7 +520,16 @@ public class BSA {
                         if (SPGlobal.logging()) {
                             SPGlobal.logSpecial(LogTypes.BSA, header, "Loading: " + bsaPath);
                         }
-                        BSA bsa = new BSA(bsaPath, false);
+                        BSA bsa;
+                        if (!bsaLookup.containsKey(bsaPath.getPath().toUpperCase()))
+                        {
+                            bsa = new BSA(bsaPath, false);
+                            bsaLookup.put(bsaPath.getPath().toUpperCase(), bsa);
+                        }
+                        else
+                        {
+                            bsa = bsaLookup.get(bsaPath.getPath().toUpperCase());
+                        }
                         resourceLoadOrder.add(bsa);
                     } catch (BadParameter | FileNotFoundException ex) {
                         logBSAError(s, ex);
@@ -776,7 +785,16 @@ public class BSA {
         File bsaPath = new File(SPGlobal.pathToData + Ln.changeFileTypeTo(m.print(), "bsa"));
         if (bsaPath.exists()) {
             try {
-                BSA bsa = new BSA(bsaPath, false);
+                BSA bsa;
+                if (!bsaLookup.containsKey(bsaPath.getPath().toUpperCase()))
+                {
+                    bsa = new BSA(bsaPath, false);
+                    bsaLookup.put(bsaPath.getPath().toUpperCase(), bsa);
+                }
+                else
+                {
+                    bsa = bsaLookup.get(bsaPath.getPath().toUpperCase());
+                }
                 pluginLoadOrder.put(m, bsa);
                 return bsa;
             } catch (IOException | BadParameter ex) {

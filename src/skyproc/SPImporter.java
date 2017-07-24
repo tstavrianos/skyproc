@@ -89,11 +89,11 @@ public class SPImporter {
                 //If Skyrim, add Skyrim.esm and Update.esm, as they
                 //are automatically removed from the list, and assumed
                 if (SPGlobal.gameName.equals("Skyrim")) {
-                    lines.add("Skyrim.esm");
-                    lines.add("Update.esm");
-                    lines.add("Dawnguard.esm");
-                    lines.add("HearthFires.esm");
-                    lines.add("Dragonborn.esm");
+                    lines.add("*Skyrim.esm");
+                    lines.add("*Update.esm");
+                    lines.add("*Dawnguard.esm");
+                    lines.add("*HearthFires.esm");
+                    lines.add("*Dragonborn.esm");
                 }
 
                 while (line != null) {
@@ -101,30 +101,29 @@ public class SPImporter {
                         line = line.substring(0, line.indexOf("#"));
                     }
                     line = line.trim();
-                    if (line.startsWith("*"))
+                    if (line.startsWith("*")) //Only plugins with a star infront are considered active.
                     {
                         line = line.substring(1);
-                    }
-                    if (!line.equals("")) {
-                        pluginName = new File(SPGlobal.pathToData + line);
-                        ModListing nextMod = new ModListing(line);
-                        if (SPGlobal.noModsAfter && nextMod.equals(SPGlobal.getGlobalPatch().getInfo())) {
-                            SPGlobal.logSync(header, "Skipping the remaining mods as they were after the patch.");
-                            break;
-                        } else if (SPGlobal.shouldImport(nextMod)
-                                && SPGlobal.shouldImport(line)) {
-                            if (pluginName.isFile()) {
-                                if (Ln.indexOfIgnoreCase(lines, line) == -1) {
-                                    SPGlobal.logSync(header, "Adding mod: " + line);
-                                    lines.add(line);
+                        if (!line.equals("")) {
+                            pluginName = new File(SPGlobal.pathToData + line);
+                            ModListing nextMod = new ModListing(line);
+                            if (SPGlobal.noModsAfter && nextMod.equals(SPGlobal.getGlobalPatch().getInfo())) {
+                                SPGlobal.logSync(header, "Skipping the remaining mods as they were after the patch.");
+                                break;
+                            } else if (SPGlobal.shouldImport(nextMod) && SPGlobal.shouldImport(line)) {
+                                if (pluginName.isFile()) {
+                                    if (Ln.indexOfIgnoreCase(lines, line) == -1) {
+                                        SPGlobal.logSync(header, "Adding mod: " + line);
+                                        lines.add(line);
+                                    } else if (SPGlobal.logging()) {
+                                        SPGlobal.logSync(header, "Mod was already added: ", line);
+                                    }
                                 } else if (SPGlobal.logging()) {
-                                    SPGlobal.logSync(header, "Mod was already added: ", line);
+                                    SPGlobal.logSync(header, "Mod didn't exist: ", line);
                                 }
                             } else if (SPGlobal.logging()) {
-                                SPGlobal.logSync(header, "Mod didn't exist: ", line);
+                                SPGlobal.logSync(header, "Mod was on the list to skip: " + line);
                             }
-                        } else if (SPGlobal.logging()) {
-                            SPGlobal.logSync(header, "Mod was on the list to skip: " + line);
                         }
                     }
                     line = ModFile.readLine();
@@ -543,7 +542,7 @@ public class SPImporter {
         try {
             RecordFileChannel input = new RecordFileChannel(path + listing.print());
             Mod plugin = new Mod(listing, extractHeaderInfo(input));
-            if (SPGlobal.logMods){
+            if (SPGlobal.logMods) {
                 SPGlobal.logMod(plugin, header, "Opened filestream to mod: " + listing.print());
             }
             if (SPGlobal.checkMissingMasters) {
@@ -563,7 +562,7 @@ public class SPImporter {
             while (iter.hasNext()) {
                 String result = iter.loading();
                 SPProgressBarPlug.setStatusNumbered(genStatus(listing) + ": " + result);
-                if (SPGlobal.logMods){
+                if (SPGlobal.logMods) {
                     SPGlobal.logMod(plugin, header, "================== Loading in GRUP " + result + ": ", plugin.getName(), " ===================");
                 }
                 plugin.parseData(result, iter.next());
@@ -578,21 +577,18 @@ public class SPImporter {
                 input.close();
             }
             SPProgressBarPlug.setStatusNumbered(genStatus(listing) + ": Done");
-            
-            
 
             return plugin;
         } catch (MissingMaster m) {
             throw m;
         } catch (Exception e) {
 
-                    SPGlobal.logError(header, "Exception occured while importing mod : " + path);
-                    SPGlobal.logError(header, "  Message: " + e);
-                    SPGlobal.logError(header, "  Stack: ");
-                    for (StackTraceElement s : e.getStackTrace()) {
-                        SPGlobal.logError(header, "  " + s.toString());
-                    }
-            
+            SPGlobal.logError(header, "Exception occured while importing mod : " + path);
+            SPGlobal.logError(header, "  Message: " + e);
+            SPGlobal.logError(header, "  Stack: ");
+            for (StackTraceElement s : e.getStackTrace()) {
+                SPGlobal.logError(header, "  " + s.toString());
+            }
 
             SPGlobal.logException(e);
             throw new BadMod("Ran into an exception, check SPGlobal.logs for more details.");
@@ -907,7 +903,7 @@ public class SPImporter {
 
     static void importStringLocations(Mod mod) {
         String header = "Importing Strings";
-        if (SPGlobal.logMods){
+        if (SPGlobal.logMods) {
             SPGlobal.logMod(mod, header, "Importing Strings");
         }
         for (Files f : SubStringPointer.Files.values()) {
@@ -996,7 +992,7 @@ public class SPImporter {
 
         if (in == null) {
             SPGlobal.logError(header, plugin.toString() + " did not have Strings files (loose or in BSA).");
-        } else if (SPGlobal.logMods){
+        } else if (SPGlobal.logMods) {
             SPGlobal.logMod(plugin, header, "Loaded " + file + " from language: " + plugin.language);
         }
     }
