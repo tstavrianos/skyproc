@@ -89,11 +89,11 @@ public class SPImporter {
                 //If Skyrim, add Skyrim.esm and Update.esm, as they
                 //are automatically removed from the list, and assumed
                 if (SPGlobal.gameName.equals("Skyrim")) {
-                    lines.add("*Skyrim.esm");
-                    lines.add("*Update.esm");
-                    lines.add("*Dawnguard.esm");
-                    lines.add("*HearthFires.esm");
-                    lines.add("*Dragonborn.esm");
+                    lines.add("Skyrim.esm");
+                    lines.add("Update.esm");
+                    lines.add("Dawnguard.esm");
+                    lines.add("HearthFires.esm");
+                    lines.add("Dragonborn.esm");
                 }
 
                 while (line != null) {

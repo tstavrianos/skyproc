@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import lev.Ln;
 import lev.debug.LDebug;
 import skyproc.gui.SUMGUI;
+import java.nio.file.FileSystems;
 
 /**
  * Global variables/settings of SkyProc.
@@ -42,7 +43,9 @@ public class SPGlobal {
      * subfolder of "Data/". (ex "Data/SkyProc Patchers/My SkyProc Patcher/My
      * Patcher.jar")
      */
-    public static String pathToData = "..\\..\\";
+    //public static String pathToData = "..\\..\\";
+    public static String pathToData = FileSystems.getDefault().getPath("..\\..\\").toAbsolutePath().normalize().toString();
+    
     /**
      * A default path to "internal files". This is currently only used for
      * saving custom path information for Skyrim.ini and plugins.txt. This can
