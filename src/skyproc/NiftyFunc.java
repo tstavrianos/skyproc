@@ -537,10 +537,10 @@ public class NiftyFunc {
     public static void setupMissingPatchFiles(Mod... mods) throws IOException {
         // Handle non-existant patchers
         for (Mod newPatcher : mods) {
-            File path = new File(SPGlobal.pathToData + newPatcher.getName());
+            File path = new File(SPGlobal.pathToDataFixed + newPatcher.getName());
             // Export tmp patch as a placeholder
             if (!path.isFile()) {
-                BufferedWriter placeholder = new BufferedWriter(new FileWriter(SPGlobal.pathToData + newPatcher.getName()));
+                BufferedWriter placeholder = new BufferedWriter(new FileWriter(SPGlobal.pathToDataFixed + newPatcher.getName()));
                 placeholder.close();
             }
         }

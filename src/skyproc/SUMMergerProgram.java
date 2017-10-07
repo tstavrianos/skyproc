@@ -187,7 +187,7 @@ public class SUMMergerProgram implements SUM {
 	ArrayList<Mod> remove = new ArrayList<>();
 	for (Mod m : SPGlobal.getDB()) {
 	    patch.tes.getMasters().remove(m.getInfo());
-	    File modFile = new File(SPGlobal.pathToData + m.getName());
+	    File modFile = new File(SPGlobal.pathToDataFixed + m.getName());
 	    if (modFile.exists()) {
 		modFile.delete();
 	    }

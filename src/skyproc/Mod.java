@@ -189,7 +189,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
      * @return True if the esp file exists for this mod in the data folder.
      */
     public boolean exists() {
-        File f = new File(SPGlobal.pathToData + getInfo().print());
+        File f = new File(SPGlobal.pathToDataFixed + getInfo().print());
         return f.exists();
     }
 
@@ -417,7 +417,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
     void addStream(Map<SubStringPointer.Files, LImport> streams, SubStringPointer.Files file) {
         try {
             String stringPath = SPImporter.getStringFilePath(this, language, file);
-            File stringFile = new File(SPGlobal.pathToData + stringPath);
+            File stringFile = new File(SPGlobal.pathToDataFixed + stringPath);
             if (stringFile.isFile()) {
                 streams.put(file, new LInChannel(stringFile));
                 return;
@@ -651,7 +651,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
     }
 
     /**
-     * Exports the mod to the path designated by SPGlobal.pathToData.
+     * Exports the mod to the path designated by SPGlobal.pathToDataFixed.
      *
      * @see SPGlobal
      * @throws IOException If there are any unforseen disk errors exporting the
@@ -661,7 +661,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
      * investigation and elimination of duplicate EDIDs.
      */
     public void export() throws IOException, BadRecord {
-        export(SPGlobal.pathToData);
+        export(SPGlobal.pathToDataFixed);
     }
 
     /**
@@ -882,7 +882,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
     }
 
     String genStringsPath(SubStringPointer.Files file) {
-        return SPGlobal.pathToData + "Strings/" + getNameNoSuffix() + "_" + SPGlobal.language + "." + file;
+        return SPGlobal.pathToDataFixed + "Strings/" + getNameNoSuffix() + "_" + SPGlobal.language + "." + file;
     }
 
     void sortMasters() {
@@ -890,7 +890,7 @@ public class Mod implements Comparable, Iterable<GRUP> {
         for (ModListing m : sublist.collection) {
             if (!(m.master || m.falseMaster)) {
                 try {
-                    RecordFileChannel inputChannel = new RecordFileChannel(SPGlobal.pathToData + m.print());
+                    RecordFileChannel inputChannel = new RecordFileChannel(SPGlobal.pathToDataFixed + m.print());
                     Mod plugin = new Mod(m, extractHeaderInfo(inputChannel)); // sets false master flag for the ModListing
                 } catch (Exception e) {
                     if (SPGlobal.logging()) {

@@ -101,11 +101,12 @@ public class SPImporter {
                         line = line.substring(0, line.indexOf("#"));
                     }
                     line = line.trim();
+                    SPGlobal.logSync(header, "Checking mod: " + line);
                     if (line.startsWith("*")) //Only plugins with a star infront are considered active.
                     {
                         line = line.substring(1);
                         if (!line.equals("")) {
-                            pluginName = new File(SPGlobal.pathToData + line);
+                            pluginName = new File(SPGlobal.pathToDataFixed + line);
                             ModListing nextMod = new ModListing(line);
                             if (SPGlobal.noModsAfter && nextMod.equals(SPGlobal.getGlobalPatch().getInfo())) {
                                 SPGlobal.logSync(header, "Skipping the remaining mods as they were after the patch.");
@@ -158,7 +159,7 @@ public class SPImporter {
      */
     static public ArrayList<ModListing> getModList() {
         SPGlobal.newSyncLog("Get All Present Mod List.txt");
-        File directory = new File(SPGlobal.pathToData);
+        File directory = new File(SPGlobal.pathToDataFixed);
         ArrayList<String> out = new ArrayList<>();
         if (directory.isDirectory()) {
             File[] files = directory.listFiles();
@@ -184,7 +185,7 @@ public class SPImporter {
 
         for (String line : lines) {
             try {
-                RecordFileChannel input = new RecordFileChannel(SPGlobal.pathToData + line);
+                RecordFileChannel input = new RecordFileChannel(SPGlobal.pathToDataFixed + line);
                 ModListing tempListing = new ModListing(line);
                 Mod plugin = new Mod(tempListing, extractHeaderInfo(input));
                 if (plugin.isFlag(Mod.Mod_Flags.MASTER)) {
@@ -259,7 +260,7 @@ public class SPImporter {
      * @throws MissingMaster
      */
     static public Set<Mod> importAllMods(GRUP_TYPE... grup_targets) throws MissingMaster {
-        return importMods(getModList(), SPGlobal.pathToData, grup_targets);
+        return importMods(getModList(), SPGlobal.pathToDataFixed, grup_targets);
     }
 
     /**
@@ -278,7 +279,7 @@ public class SPImporter {
      */
     static public Set<Mod> importAllMods(ArrayList<GRUP_TYPE> grup_targets) throws MissingMaster {
         GRUP_TYPE[] tmp = new GRUP_TYPE[0];
-        return importMods(getModList(), SPGlobal.pathToData, grup_targets.toArray(tmp));
+        return importMods(getModList(), SPGlobal.pathToDataFixed, grup_targets.toArray(tmp));
     }
 
     /**
@@ -324,7 +325,7 @@ public class SPImporter {
      * @throws MissingMaster
      */
     static public Set<Mod> importActiveMods(GRUP_TYPE... grup_targets) throws IOException, MissingMaster {
-        return importMods(getActiveModList(), SPGlobal.pathToData, grup_targets);
+        return importMods(getActiveModList(), SPGlobal.pathToDataFixed, grup_targets);
     }
 
     /**
@@ -348,7 +349,7 @@ public class SPImporter {
      */
     static public Set<Mod> importActiveMods(ArrayList<GRUP_TYPE> grup_targets) throws IOException, MissingMaster {
         GRUP_TYPE[] tmp = new GRUP_TYPE[0];
-        return importMods(getActiveModList(), SPGlobal.pathToData, grup_targets.toArray(tmp));
+        return importMods(getActiveModList(), SPGlobal.pathToDataFixed, grup_targets.toArray(tmp));
     }
 
     /**
@@ -366,7 +367,7 @@ public class SPImporter {
      * @throws MissingMaster
      */
     static public Set<Mod> importMods(ArrayList<ModListing> mods, GRUP_TYPE... grup_targets) throws MissingMaster {
-        return importMods(mods, SPGlobal.pathToData, grup_targets);
+        return importMods(mods, SPGlobal.pathToDataFixed, grup_targets);
     }
 
     /**
@@ -385,7 +386,7 @@ public class SPImporter {
      */
     static public Set<Mod> importMods(ArrayList<ModListing> mods, ArrayList<GRUP_TYPE> grup_targets) throws MissingMaster {
         GRUP_TYPE[] tmp = new GRUP_TYPE[0];
-        return importMods(mods, SPGlobal.pathToData, grup_targets.toArray(tmp));
+        return importMods(mods, SPGlobal.pathToDataFixed, grup_targets.toArray(tmp));
     }
 
     /**
@@ -402,7 +403,7 @@ public class SPImporter {
      * @throws MissingMaster
      */
     static public Set<Mod> importMods(ArrayList<ModListing> mods) throws MissingMaster {
-        return importMods(mods, SPGlobal.pathToData, GRUP_TYPE.values());
+        return importMods(mods, SPGlobal.pathToDataFixed, GRUP_TYPE.values());
     }
 
     /**
@@ -615,14 +616,14 @@ public class SPImporter {
      * @throws MissingMaster
      */
     public static Mod importMod(ModListing listing, GRUP_TYPE... grup_targets) throws BadMod, MissingMaster {
-        return importMod(listing, SPGlobal.pathToData, grup_targets);
+        return importMod(listing, SPGlobal.pathToDataFixed, grup_targets);
     }
 
     static void checkMissingMasters(Mod plugin) throws MissingMaster {
         ArrayList<ModListing> missingMasters = new ArrayList<>();
         for (ModListing master : plugin.getMasters()) {
             try {
-                RecordFileChannel input = new RecordFileChannel(SPGlobal.pathToData + master.print());
+                RecordFileChannel input = new RecordFileChannel(SPGlobal.pathToDataFixed + master.print());
                 ModListing tempListing = new ModListing(master.print());
                 Mod masterMod = new Mod(tempListing, extractHeaderInfo(input));
                 if (SPDatabase.getMod(tempListing) == null && SPGlobal.shouldImport(master)) {
@@ -874,7 +875,7 @@ public class SPImporter {
             }
             // If we have mods left, switch to it.
             if (activeMods.size() > 0) {
-                fileInput = new LInChannel(SPGlobal.pathToData + activeMods.get(0).print());
+                fileInput = new LInChannel(SPGlobal.pathToDataFixed + activeMods.get(0).print());
                 activeMod = activeMods.get(0);
                 activeMods.remove(0);
                 return true;
@@ -925,7 +926,7 @@ public class SPImporter {
 
         for (Language l : languageList) {
             String strings = getStringFilePath(plugin, l, file);
-            File stringsFile = new File(SPGlobal.pathToData + strings);
+            File stringsFile = new File(SPGlobal.pathToDataFixed + strings);
 
             // Open file
             if (stringsFile.isFile()) {

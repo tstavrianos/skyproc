@@ -162,7 +162,7 @@ public class SPDatabase implements Iterable<Mod> {
 	ArrayList<String> out = new ArrayList<>();
 	try {
 	    for (ModListing m : SPImporter.getActiveModList()) {
-		File modFile = new File(SPGlobal.pathToData + m.toString());
+		File modFile = new File(SPGlobal.pathToDataFixed + m.toString());
 		out.add(m.toString() + dateDelim + modFile.lastModified());
 	    }
 	} catch (IOException e) {

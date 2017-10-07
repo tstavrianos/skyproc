@@ -104,7 +104,7 @@ public class SkyProcTester {
 	    if (!GRUP_TYPE.unfinished(g) && !GRUP_TYPE.internal(g) && !skip.contains(g)) {
                 for(ModListing m : p.importList)
                 {
-                    SPImporter.importMod(m, SPGlobal.pathToData, g);
+                    SPImporter.importMod(m, SPGlobal.pathToDataFixed, g);
                 }
 		if (!test(g, p)) {
 		    SPProgressBarPlug.setStatus("FAILED: " + g);
@@ -157,15 +157,15 @@ public class SkyProcTester {
             patch.addMaster(depend);
         }
 	try {
-	    patch.export(new File(SPGlobal.pathToData + patch.getName()));
+	    patch.export(new File(SPGlobal.pathToDataFixed + patch.getName()));
 	} catch (BadRecord ex) {
 	    SPGlobal.logException(ex);
 	    System.out.println("Record Lengths were off.");
 	}
-	passed = passed && NiftyFunc.validateRecordLengths(SPGlobal.pathToData + "Test.esp", 10);
+	passed = passed && NiftyFunc.validateRecordLengths(SPGlobal.pathToDataFixed + "Test.esp", 10);
 	File validF = new File("Validation Files/" + type.toString() + "_" + p.main.printNoSuffix() + ".esp");
 	if (validF.isFile()) {
-	    passed = Ln.validateCompare(SPGlobal.pathToData + "Test.esp", validF.getPath(), 10) && passed;
+	    passed = Ln.validateCompare(SPGlobal.pathToDataFixed + "Test.esp", validF.getPath(), 10) && passed;
 	} else {
 	    System.out.println("Didn't have a source file to validate bytes to.");
 	}
@@ -196,8 +196,8 @@ public class SkyProcTester {
 	    }
 	}
 
-	patch.export(new File(SPGlobal.pathToData + patch.getName()));
-	passed = passed && NiftyFunc.validateRecordLengths(SPGlobal.pathToData + "Test.esp", 10);
+	patch.export(new File(SPGlobal.pathToDataFixed + patch.getName()));
+	passed = passed && NiftyFunc.validateRecordLengths(SPGlobal.pathToDataFixed + "Test.esp", 10);
 
 	SPProgressBarPlug.pause(false);
 	SPProgressBarPlug.incrementBar();

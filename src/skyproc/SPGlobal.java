@@ -44,8 +44,8 @@ public class SPGlobal {
      * Patcher.jar")
      */
     //public static String pathToData = "..\\..\\";
-    public static String pathToData = FileSystems.getDefault().getPath("..\\..\\").toAbsolutePath().normalize().toString();
-    
+    public static final String pathToData = FileSystems.getDefault().getPath("..\\..\\").toAbsolutePath().normalize().toString();
+    public static String pathToDataFixed = (pathToData.endsWith("\\") ? pathToData : pathToData + "\\");
     /**
      * A default path to "internal files". This is currently only used for
      * saving custom path information for Skyrim.ini and plugins.txt. This can

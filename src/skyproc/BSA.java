@@ -315,7 +315,7 @@ public class BSA {
      * @throws DataFormatException
      */
     static public LShrinkArray getUsedFile(String filePath) throws IOException, DataFormatException {
-        File outsideBSA = new File(SPGlobal.pathToData + filePath);
+        File outsideBSA = new File(SPGlobal.pathToDataFixed + filePath);
         if (outsideBSA.isFile()) {
             SPGlobal.logSpecial(LogTypes.BSA, header, "Loaded from loose files: " + outsideBSA.getPath());
             return new LShrinkArray(outsideBSA);
@@ -484,7 +484,7 @@ public class BSA {
             // Get BSAs loaded from all active pluging's plugin.ini files
             ArrayList<ModListing> activeMods = SPImporter.getActiveModList();
             for (ModListing m : activeMods) {
-                File pluginIni = new File(SPGlobal.pathToData + Ln.changeFileTypeTo(m.print(), "ini"));
+                File pluginIni = new File(SPGlobal.pathToDataFixed + Ln.changeFileTypeTo(m.print(), "ini"));
                 if (pluginIni.exists()) {
                     LInChannel input = new LInChannel(pluginIni);
 
@@ -514,7 +514,7 @@ public class BSA {
 
             resourceLoadOrder = new ArrayList<>(resources.size());
             for (String s : resources) {
-                File bsaPath = new File(SPGlobal.pathToData + s);
+                File bsaPath = new File(SPGlobal.pathToDataFixed + s);
                 if (bsaPath.exists()) {
                     try {
                         if (SPGlobal.logging()) {
@@ -782,7 +782,7 @@ public class BSA {
             return pluginLoadOrder.get(m);
         }
 
-        File bsaPath = new File(SPGlobal.pathToData + Ln.changeFileTypeTo(m.print(), "bsa"));
+        File bsaPath = new File(SPGlobal.pathToDataFixed + Ln.changeFileTypeTo(m.print(), "bsa"));
         if (bsaPath.exists()) {
             try {
                 BSA bsa;
@@ -825,7 +825,7 @@ public class BSA {
      * @return
      */
     static public boolean hasBSA(ModListing m) {
-        File bsaPath = new File(SPGlobal.pathToData + Ln.changeFileTypeTo(m.print(), "bsa"));
+        File bsaPath = new File(SPGlobal.pathToDataFixed + Ln.changeFileTypeTo(m.print(), "bsa"));
         return bsaPath.exists();
     }
 

@@ -844,7 +844,7 @@ public class SUMGUI extends JFrame {
 	ArrayList<String> oldModListTmp = new ArrayList<>(oldModList);
 	for (int i = 0; i < oldModListTmp.size(); i++) {
 	    String modName = oldModListTmp.get(i);
-	    File modFile = new File(SPGlobal.pathToData + modName);
+	    File modFile = new File(SPGlobal.pathToDataFixed + modName);
 	    boolean changedF = modFile.lastModified() != oldModListDate.get(i);
 	    if ((changed && changedF)
 		    || (!changed && !changedF)) {
