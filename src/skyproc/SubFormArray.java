@@ -149,4 +149,27 @@ class SubFormArray extends SubRecordTyped implements Iterable<FormID> {
     public boolean contains(FormID form){
         return IDs.contains(form);
     }
+
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubFormArrays with logging capabilities. This utilizes
+	 * the merge function of FormID's to iterate through the array.
+	 *
+	 * @param no The new SubFormArray to be merged.
+	 * @param bo The base SubFormArray, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubFormArray.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubFormArray sfa = this;
+		if (!(no == null && bo == null && (no instanceof SubFormArray) && (bo instanceof SubFormArray))) {
+			final SubFormArray nsfa = (SubFormArray) no;
+			final SubFormArray bsfa = (SubFormArray) bo;
+			Merger.merge(sfa.IDs, nsfa.IDs, bsfa.IDs, getType());
+		}
+		return sfa;
+	}
 }

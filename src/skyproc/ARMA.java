@@ -114,6 +114,22 @@ public class ARMA extends MajorRecord {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DNAM");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			DNAM d = this;
+			if (!(no == null && bo == null && (no instanceof DNAM) && (bo instanceof DNAM))) {
+				final DNAM nd = (DNAM) no;
+				final DNAM bd = (DNAM) bo;
+				Merger.merge(d.detectionSoundValue, nd.detectionSoundValue, bd.detectionSoundValue, getType(), "detection sound value");
+				Merger.merge(d.malePriority, nd.malePriority, bd.malePriority, getType(), "male priority");
+				Merger.merge(d.femalePriority, nd.femalePriority, bd.femalePriority, getType(), "female priority");
+				Merger.merge(d.unknown, nd.unknown, bd.unknown, getType(), "unknown");
+				Merger.merge(d.unknown2, nd.unknown2, bd.unknown2, getType(), "unknown");
+				Merger.merge(d.weaponAdjust, nd.weaponAdjust, bd.weaponAdjust, getType(), "weapon adjust");
+			}
+			return d;
+		}
     }
 
     // Common Functions
@@ -418,4 +434,24 @@ public class ARMA extends MajorRecord {
     public BodyTemplate getBodyTemplate() {
 	return subRecords.getBodyTemplate();
     }
+
+	/*
+	 * SkyBash functions.
+	 */
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		ARMA a = this;
+		if (!(no == null && bo == null && (no instanceof ARMA) && (bo instanceof ARMA))) {
+			final ARMA na = (ARMA) no;
+			final ARMA ba = (ARMA) bo;
+			SubRecords sList = a.subRecords;
+			SubRecords nsList = na.subRecords;
+			SubRecords bsList = ba.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return a;
+	}
 }

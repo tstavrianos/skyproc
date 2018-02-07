@@ -309,6 +309,51 @@ public class RACE extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DATA");
 	}
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            DATA d = this;
+            if (!(no == null && bo == null && (no instanceof DATA) && (bo instanceof DATA))) {
+                final DATA nd = (DATA) no;
+                final DATA bd = (DATA) bo;
+                Merger.merge(d.accelerationRate, nd.accelerationRate, bd.accelerationRate, getType(), "acceleration rate");
+                //Merger.merge(d.fluff1, nd.fluff1, bd.fluff1, getType(), "unknown");
+                Merger.merge(d.skillBoosts, nd.skillBoosts, bd.skillBoosts, getType());
+                Merger.merge(d.skillBoostValues, nd.skillBoostValues, bd.skillBoostValues, getType());
+                Merger.merge(d.femaleHeight, nd.femaleHeight, bd.femaleHeight, getType(), "female height");
+                Merger.merge(d.maleHeight, nd.maleHeight, bd.maleHeight, getType(), "male height");
+                Merger.merge(d.maleWeight, nd.maleWeight, bd.maleWeight, getType(), "male weight");
+                Merger.merge(d.femaleWeight, nd.femaleWeight, bd.femaleWeight, getType(), "female weight");
+                //Merger.merge(d.fluff3, nd.fluff3, bd.fluff3, getType(), "unknown");
+                Merger.merge(d.headBipedObject, nd.headBipedObject, bd.headBipedObject, getType(), "headBipedObject");
+                Merger.merge(d.hairBipedObject, nd.hairBipedObject, bd.hairBipedObject, getType(), "hairBipedObject");
+                Merger.merge(d.startingHealth, nd.startingHealth, bd.startingHealth, getType(), "starting health");
+                Merger.merge(d.startingMagicka, nd.startingMagicka, bd.startingMagicka, getType(), "starting magicka");
+                Merger.merge(d.startingStamina, nd.startingStamina, bd.startingStamina, getType(), "starting stamina");
+                Merger.merge(d.baseCarryWeight, nd.baseCarryWeight, bd.baseCarryWeight, getType(), "base carry weight");
+                Merger.merge(d.baseMass, nd.baseMass, bd.baseMass, getType(), "base mass");
+                Merger.merge(d.decelerationRate, nd.decelerationRate, bd.decelerationRate, getType(), "deceleration rate");
+                Merger.merge(d.size, nd.size, bd.size, getType(), "size");
+                d.flags = Merger.merge(d.flags, nd.flags, bd.flags, getType());
+                Merger.merge(d.injuredHealthPct, nd.injuredHealthPct, bd.injuredHealthPct, getType(), "injured health percentage");
+                //Merger.merge(d.fluff4, nd.fluff4, bd.fluff4, getType(), "unknown");
+                Merger.merge(d.shieldBipedObject, nd.shieldBipedObject, bd.shieldBipedObject, getType(), "shieldBipedObject");
+                Merger.merge(d.healthRegen, nd.healthRegen, bd.healthRegen, getType(), "health regen");
+                Merger.merge(d.magickaRegen, nd.magickaRegen, bd.magickaRegen, getType(), "magicka regen");
+                Merger.merge(d.staminaRegen, nd.staminaRegen, bd.staminaRegen, getType(), "stamina regen");
+                Merger.merge(d.unarmedDamage, nd.unarmedDamage, bd.unarmedDamage, getType(), "unarmed damage");
+                Merger.merge(d.unarmedReach, nd.unarmedReach, bd.unarmedReach, getType(), "unarmed reach");
+                //Merger.merge(d.fluff5, nd.fluff5, bd.fluff5, getType(), "unknown");
+                Merger.merge(d.bodyBipedObject, nd.bodyBipedObject, bd.bodyBipedObject, getType(), "bodyBipedObject");
+                Merger.merge(d.aimAngleTolerance, nd.aimAngleTolerance, bd.aimAngleTolerance, getType(), "aim angle tolerance");
+                Merger.merge(d.flightRadius, nd.flightRadius, bd.flightRadius, getType(), "flight radius");
+                Merger.merge(d.angularAcceleration, nd.angularAcceleration, bd.angularAcceleration, getType(), "angular acceleration");
+                Merger.merge(d.angularTolerance, nd.angularTolerance, bd.angularTolerance, getType(), "angular tolerance");
+                //Merger.merge(d.fluff6, nd.fluff6, bd.fluff6, getType(), "unknown");
+                d.flags2 = Merger.merge(d.flags2, nd.flags2, bd.flags2, getType());
+            }
+            return d;
+        }
     }
 
     /**
@@ -2004,5 +2049,22 @@ public class RACE extends MajorRecordDescription {
 	    default:
 		getHeadData(g).subRecords.getSubList("FTSM").clear();
 	}
+    }
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        RACE r = this;
+        if (!(no == null && bo == null && (no instanceof RACE) && (bo instanceof RACE))) {
+            final RACE nr = (RACE) no;
+            final RACE br = (RACE) bo;
+            SubRecords sList = r.subRecords;
+            SubRecords nsList = nr.subRecords;
+            SubRecords bsList = br.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return r;
     }
 }

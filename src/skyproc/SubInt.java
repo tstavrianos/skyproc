@@ -116,4 +116,31 @@ class SubInt extends SubRecordTyped<Integer> {
 	out.set(in);
 	return out;
     }
+
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubInts with logging capabilities.
+	 *
+	 * @param no The new SubInt to be merged.
+	 * @param bo The base SubInt, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubInt.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubInt integer = this;
+		if (!(no == null && bo == null && (no instanceof SubInt) && (bo instanceof SubInt))) {
+			final SubInt newint = (SubInt) no;
+			final SubInt baseint = (SubInt) bo;
+			if (!integer.equals(newint) && !newint.equals(baseint)) {
+				integer = newint;
+				if (Merger.fullLogging) {
+					Merger.logMerge(getType(), integer.toString());
+				}
+			}
+		}
+		return integer;
+	}
 }

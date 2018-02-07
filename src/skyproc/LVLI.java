@@ -46,4 +46,25 @@ public class LVLI extends LeveledRecord {
 	return new LVLI();
     }
 
+    SubForm getLVLG() {return subRecords.getSubForm("LVLG");}
+    //SkyBash merger
+    /**
+     * Merges Major Records.
+     *
+     * @param no The new MajorRecord to be merged.
+     * @param bo The base MajorRecord, to prevent base data from being
+     * re-merged.
+     * @return The modified MajorRecord.
+     */
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        LVLI l = this;
+        if (!(no == null && bo == null && (no instanceof LVLI) && (bo instanceof LVLI))) {
+            final LVLI nl = (LVLI) no;
+            final LVLI bl = (LVLI) bo;
+            l.getLVLG().merge(nl.getLVLG(), bl.getLVLG());
+        }
+        return l;
+    }
 }

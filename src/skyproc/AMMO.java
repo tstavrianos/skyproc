@@ -88,6 +88,20 @@ public class AMMO extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DATA");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			DATA d = this;
+			if (!(no == null && bo == null && getClass() != no.getClass() && getClass() != bo.getClass())) {
+				final DATA nd = (DATA) no;
+				final DATA bd = (DATA) bo;
+				d.projectile.merge(nd.projectile, bd.projectile, getType());
+				Merger.merge(d.damage, nd.damage, bd.damage, getType(), "damage");
+				Merger.merge(d.value, nd.value, bd.value, getType(), "value");
+				d.flags = Merger.merge(d.flags, nd.flags, bd.flags, getType());
+			}
+			return d;
+		}
     }
 
     // Enums
@@ -272,4 +286,26 @@ public class AMMO extends MajorRecordDescription {
     public Model getModelData() {
 	return subRecords.getModel();
     }
+
+	SubForm getYNAM(){return subRecords.getSubForm("YNAM");}
+	SubForm getZNAM(){return subRecords.getSubForm("ZNAM");}
+	SubData getOBND(){return subRecords.getSubData("OBND");}
+
+	//SkyBash merger
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		AMMO a = this;
+		if (!(no == null && bo == null && (no instanceof AMMO) && (bo instanceof AMMO))) {
+			final AMMO na = (AMMO) no;
+			final AMMO ba = (AMMO) bo;
+			a.getData().merge(na.getData(), ba.getData());
+			a.getModelData().merge(na.getModelData(), ba.getModelData());
+			a.getYNAM().merge(na.getYNAM(), ba.getYNAM());
+			a.getZNAM().merge(na.getZNAM(), ba.getZNAM());
+			a.getKeywordSet().merge(na.getKeywordSet(), ba.getKeywordSet());
+			a.getOBND().merge(na.getOBND(), ba.getOBND());
+		}
+		return a;
+	}
 }

@@ -157,4 +157,35 @@ public class SubFormInt extends SubRecordTyped {
 	return hash;
     }
 
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubFormInts with logging capabilities. If the form is
+     * identical, it also updates the integer.
+     *
+     * @param no The new SubFormInt to be merged.
+     * @param bo The base SubFormInt, to prevent base data from being re-merged.
+     * @return The modified SubFormInt.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubFormInt sfi = this;
+        if (!(no == null && bo == null && (no instanceof SubFormInt) && (bo instanceof SubFormInt))) {
+            final SubFormInt newsfi = (SubFormInt) no;
+            final SubFormInt basesfi = (SubFormInt) bo;
+            if (newsfi.ID.equals(sfi.ID) && newsfi.num != basesfi.num) {
+                sfi.num = newsfi.num;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType(), sfi.toString());
+                }
+            } else if (!newsfi.equals(basesfi)) {
+                sfi = newsfi;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType(), sfi.toString());
+                }
+            }
+        }
+        return sfi;
+    }
 }

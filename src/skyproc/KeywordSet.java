@@ -169,4 +169,14 @@ public class KeywordSet extends SubRecord {
         return type;
     }
 
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        KeywordSet k = this;
+        if (!(no == null && bo == null && (no instanceof KeywordSet) && (bo instanceof KeywordSet))) {
+            final KeywordSet nk = (KeywordSet) no;
+            final KeywordSet bk = (KeywordSet) bo;
+            k.keywords.merge(nk.keywords, bk.keywords);
+        }
+        return k;
+    }
 }

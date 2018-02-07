@@ -145,4 +145,36 @@ class SubFormData extends SubRecordTyped {
 	return hash;
     }
 
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubFormDatas with logging capabilities. If the form is
+     * identical, it also updates the data.
+     *
+     * @param no The new SubFormData to be merged.
+     * @param bo The base SubFormData, to prevent base data from being re-merged.
+     * @return The modified SubFormData.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubFormData sfi = this;
+        if (!(no == null && bo == null && (no instanceof SubFormData) && (bo instanceof SubFormData))) {
+            final SubFormData newsfi = (SubFormData) no;
+            final SubFormData basesfi = (SubFormData) bo;
+            if (newsfi.ID.equals(sfi.ID) && Arrays.equals(newsfi.data, basesfi.data)) {
+                sfi.data = newsfi.data;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType(), sfi.toString());
+                }
+            } else if (!newsfi.equals(basesfi)) {
+                sfi = newsfi;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType(), sfi.toString());
+                }
+            }
+        }
+        return sfi;
+    }
+
 }

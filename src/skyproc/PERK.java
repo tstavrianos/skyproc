@@ -278,4 +278,21 @@ public class PERK extends MajorRecordDescription {
     public FormID getNextPerk() {
 	return subRecords.getSubForm("NNAM").getForm();
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		PERK p = this;
+		if (!(no == null && bo == null && (no instanceof PERK) && (bo instanceof PERK))) {
+			final PERK np = (PERK) no;
+			final PERK bp = (PERK) bo;
+			SubRecords sList = p.subRecords;
+			SubRecords nsList = np.subRecords;
+			SubRecords bsList = bp.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return p;
+	}
 }

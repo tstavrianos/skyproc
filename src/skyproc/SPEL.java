@@ -295,4 +295,20 @@ public class SPEL extends MagicItem {
 	getSPIT().perkType = perkRef;
     }
 
+    SubForm getETYP() {return subRecords.getSubForm("ETYP");}
+    SubForm getMDOB() {return subRecords.getSubForm("MDOB");}
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        SPEL s = this;
+        if (!(no == null && bo == null && (no instanceof SPEL) && (bo instanceof SPEL))) {
+            final SPEL ns = (SPEL) no;
+            final SPEL bs = (SPEL) bo;
+            s.getETYP().merge(ns.getETYP(), bs.getETYP());
+            s.getMDOB().merge(ns.getMDOB(), bs.getMDOB());
+            s.getSPIT().merge(ns.getSPIT(), bs.getSPIT());
+        }
+        return s;
+    }
 }

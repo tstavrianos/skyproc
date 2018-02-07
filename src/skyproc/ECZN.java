@@ -257,4 +257,21 @@ public class ECZN extends MajorRecord {
     public void setRank(int rank) {
 	getDATA().rank = rank;
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		ECZN e = this;
+		if (!(no == null && bo == null && (no instanceof ECZN) && (bo instanceof ECZN))) {
+			final ECZN ne = (ECZN) no;
+			final ECZN be = (ECZN) bo;
+			SubRecords sList = e.subRecords;
+			SubRecords nsList = ne.subRecords;
+			SubRecords bsList = be.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return e;
+	}
 }

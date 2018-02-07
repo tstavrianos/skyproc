@@ -162,4 +162,27 @@ public class COBJ extends MajorRecord {
     public void setOutputQuantity(int n) {
 	subRecords.setSubInt("NAM1", n);
     }
+
+    SubList getCOCT() {return subRecords.getSubList("COCT");}
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        COBJ c = this;
+        if (!(no == null && bo == null && (no instanceof COBJ) && (bo instanceof COBJ))) {
+            final COBJ nc = (COBJ) no;
+            final COBJ bc = (COBJ) bo;
+            SubRecords sList = c.subRecords;
+            SubRecords nsList = nc.subRecords;
+            SubRecords bsList = bc.subRecords;
+            for (SubRecord s : sList) {
+                if (s.equals(c.getCOCT())) {
+                    c.getCOCT().mergeList(nc.getCOCT(), bc.getCOCT());
+                } else {
+                    s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+                }
+            }
+        }
+        return c;
+    }
 }

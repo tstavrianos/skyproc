@@ -259,4 +259,15 @@ public class AltTextures extends SubRecordTyped {
 	    return hash;
 	}
     }
+
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		AltTextures a = this;
+		if (!(no == null && bo == null && (no instanceof AltTextures) && (bo instanceof AltTextures))) {
+			final AltTextures na = (AltTextures) no;
+			final AltTextures ba = (AltTextures) bo;
+			Merger.merge(a.altTextures, na.altTextures, ba.altTextures, getType(), "alternate textures list");
+		}
+		return a;
+	}
 }

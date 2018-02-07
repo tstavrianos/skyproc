@@ -188,4 +188,18 @@ public class ScriptPackage extends SubRecord implements Serializable {
     ArrayList<String> getTypes() {
 	return Record.getTypeList("VMAD");
     }
+
+    /*
+     * SkyBash Methods
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        ScriptPackage s = this;
+        if (!(no == null && bo == null && (no instanceof ScriptPackage) && (bo instanceof ScriptPackage))) {
+            final ScriptPackage ns = (ScriptPackage) no;
+            final ScriptPackage bs = (ScriptPackage) bo;
+            Merger.merge(s.scripts, ns.scripts, bs.scripts, getType());
+        }
+        return s;
+    }
 }

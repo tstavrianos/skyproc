@@ -105,4 +105,21 @@ public class FLST extends MajorRecord {
     public void clearEntries() {
 	subRecords.getSubList("LNAM").clear();
     }
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        FLST f = this;
+        if (!(no == null && bo == null && (no instanceof FLST) && (bo instanceof FLST))) {
+            final FLST nf = (FLST) no;
+            final FLST bf = (FLST) bo;
+            SubRecords sList = f.subRecords;
+            SubRecords nsList = nf.subRecords;
+            SubRecords bsList = bf.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return f;
+    }
 }

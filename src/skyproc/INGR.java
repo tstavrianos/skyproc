@@ -79,6 +79,18 @@ public class INGR extends MagicItem {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DATA");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			DATA d = this;
+			if (!(no == null && bo == null && (no instanceof DATA) && (bo instanceof DATA))) {
+				final DATA nd = (DATA) no;
+				final DATA bd = (DATA) bo;
+				Merger.merge(d.value, nd.value, bd.value, getType(), "value");
+				Merger.merge(d.weight, nd.weight, bd.weight, getType(), "weight");
+			}
+			return d;
+		}
     }
 
     static class ENIT extends SubRecord {
@@ -121,6 +133,18 @@ public class INGR extends MagicItem {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("ENIT");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			ENIT e = this;
+			if (!(no == null && bo == null && (no instanceof ENIT) && (bo instanceof ENIT))) {
+				final ENIT ne = (ENIT) no;
+				final ENIT be = (ENIT) bo;
+				Merger.merge(e.baseCost, ne.baseCost, be.baseCost, getType(), "base cost");
+				e.flags = Merger.merge(e.flags, ne.flags, be.flags, getType());
+			}
+			return e;
+		}
     }
 
     // Enums
@@ -358,4 +382,21 @@ public class INGR extends MagicItem {
     public Model getModelData() {
 	return subRecords.getModel();
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		INGR i = this;
+		if (!(no == null && bo == null && (no instanceof INGR) && (bo instanceof INGR))) {
+			final INGR ni = (INGR) no;
+			final INGR bi = (INGR) bo;
+			SubRecords sList = i.subRecords;
+			SubRecords nsList = ni.subRecords;
+			SubRecords bsList = bi.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return i;
+	}
 }

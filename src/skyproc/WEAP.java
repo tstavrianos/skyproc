@@ -248,6 +248,38 @@ public class WEAP extends MajorRecordDescription {
         public void setSkill(Skill skill) {
             this.skill = Skill.value(skill);
         }
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			DNAM e = this;
+			if (!(no == null && bo == null && (no instanceof DNAM) && (bo instanceof DNAM))) {
+				final DNAM ne = (DNAM) no;
+				final DNAM be = (DNAM) bo;
+				Merger.merge(e.wtype, ne.wtype, be.wtype, getType(), "weapon type");
+				Merger.merge(e.unknown1, ne.unknown1, be.unknown1, getType(), "unknown");
+				Merger.merge(e.speed, ne.speed, be.speed, getType(), "speed");
+				Merger.merge(e.reach, ne.reach, be.reach, getType(), "reach");
+				Merger.merge(e.sightFOV, ne.sightFOV, be.sightFOV, getType(), "sight FOV");
+				Merger.merge(e.unknown2, ne.unknown2, be.unknown2, getType(), "unknown");
+				Merger.merge(e.vats, ne.vats, be.vats, getType(), "VATS?");
+				Merger.merge(e.attackAnimation, ne.attackAnimation, be.attackAnimation, getType(), "attackAnimation");
+				Merger.merge(e.numProjectiles, ne.numProjectiles, be.numProjectiles, getType(), "number of projectiles");
+				Merger.merge(e.embeddedWeapActorValue, ne.embeddedWeapActorValue, be.embeddedWeapActorValue, getType(), "embedded weapon actor value");
+				Merger.merge(e.minRange, ne.minRange, be.minRange, getType(), "min range");
+				Merger.merge(e.maxRange, ne.maxRange, be.maxRange, getType(), "max range");
+				Merger.merge(e.onHit, ne.onHit, be.onHit, getType(), "onHit");
+				Merger.merge(e.unknown6, ne.unknown6, be.unknown6, getType(), "unknown");
+				Merger.merge(e.unknown7, ne.unknown7, be.unknown7, getType(), "unknown");
+				Merger.merge(e.resist, ne.resist, be.resist, getType(), "resist");
+				Merger.merge(e.unknown8, ne.unknown8, be.unknown8, getType(), "unknown");
+				Merger.merge(e.stagger, ne.stagger, be.stagger, getType(), "stagger");
+				e.flags1 = Merger.merge(e.flags1, ne.flags1, be.flags1, getType());
+				e.flags2 = Merger.merge(e.flags2, ne.flags2, be.flags2, getType());
+				//e.flags3.merge(ne.flags3, be.flags3, getType());
+				Merger.merge(e.skill, ne.skill, be.skill, getType(), "skill");
+			}
+			return e;
+		}
     }
 
     static final class DATA extends SubRecord {
@@ -305,6 +337,19 @@ public class WEAP extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DATA");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			DATA e = this;
+			if (!(no == null && bo == null && (no instanceof DATA) && (bo instanceof DATA))) {
+				final DATA ne = (DATA) no;
+				final DATA be = (DATA) bo;
+				Merger.merge(e.value, ne.value, be.value, getType(), "value");
+				Merger.merge(e.weight, ne.weight, be.weight, getType(), "weight");
+				Merger.merge(e.damage, ne.damage, be.damage, getType(), "damage");
+			}
+			return e;
+		}
     }
 
     static final class CRDT extends SubRecord {
@@ -388,6 +433,22 @@ public class WEAP extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("CRDT");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			CRDT e = this;
+			if (!(no == null && bo == null && (no instanceof CRDT) && (bo instanceof CRDT))) {
+				final CRDT ne = (CRDT) no;
+				final CRDT be = (CRDT) bo;
+				Merger.merge(e.critDmg, ne.critDmg, be.critDmg, getType(), "critical damage");
+				Merger.merge(e.unknown0, ne.unknown0, be.unknown0, getType(), "unknown");
+				Merger.merge(e.critMult, ne.critMult, be.critMult, getType(), "critical multiplier");
+				Merger.merge(e.onDeath, ne.onDeath, be.onDeath, getType(), "on death (?)");
+				Merger.merge(e.unknown, ne.unknown, be.unknown, getType(), "unknown");
+				e.critEffect.merge(ne.critEffect, be.critEffect, getType());
+			}
+			return e;
+		}
     }
 
     // Enums
@@ -1161,5 +1222,21 @@ public class WEAP extends MajorRecordDescription {
         setValue(value);
         return true;
     }
-    
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		WEAP e = this;
+		if (!(no == null && bo == null && (no instanceof WEAP) && (bo instanceof WEAP))) {
+			final WEAP ne = (WEAP) no;
+			final WEAP be = (WEAP) bo;
+			SubRecords sList = e.subRecords;
+			SubRecords nsList = ne.subRecords;
+			SubRecords bsList = be.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return e;
+	}
 }

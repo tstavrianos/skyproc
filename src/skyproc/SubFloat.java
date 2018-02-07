@@ -88,4 +88,31 @@ class SubFloat extends SubRecordTyped {
     public float get() {
 	return data;
     }
+
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubFloats with logging capabilities.
+     *
+     * @param no The new SubFloat to be merged.
+     * @param bo The base SubFloat, to prevent base data from being
+     * re-merged.
+     * @return The modified SubFloat.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubFloat f = this;
+        if (!(no == null && bo == null && (no instanceof SubFloat) && (bo instanceof SubFloat))) {
+            final SubFloat nf = (SubFloat) no;
+            final SubFloat bf = (SubFloat) bo;
+            if (!f.equals(nf) && !nf.equals(bf)) {
+                f = nf;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType(), nf.toString());
+                }
+            }
+        }
+        return f;
+    }
 }

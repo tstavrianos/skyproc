@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcbad14f-4286-4793-9316-5ec1fd44042b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Merger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/Merger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="method#merge#0;class#Merger#0" expanded="false" />
+                <element signature="method#merge#1;class#Merger#0" expanded="false" />
+                <element signature="method#merge#2;class#Merger#0" expanded="false" />
+                <element signature="method#merge#3;class#Merger#0" expanded="false" />
+                <element signature="method#merge#4;class#Merger#0" expanded="false" />
+                <element signature="method#merge#5;class#Merger#0" expanded="false" />
+                <element signature="method#merge#6;class#Merger#0" expanded="false" />
+                <element signature="docComment;method#merge#7;class#Merger#0" expanded="false" />
+                <element signature="method#merge#7;class#Merger#0" expanded="false" />
+                <element signature="method#merge#8;class#Merger#0" expanded="false" />
+                <element signature="method#merge#9;class#Merger#0" expanded="false" />
+                <element signature="method#logMerge#0;class#Merger#0" expanded="false" />
+                <element signature="method#logMerge#1;class#Merger#0" expanded="false" />
+                <element signature="method#logMerge#2;class#Merger#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SUMprogram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SUMprogram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="692" column="0" lean-forward="true" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SPSettingPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPSettingPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>VNAM</find>
+      <find>WKMV</find>
+      <find>skill</find>
+      <find>getData</find>
+      <find>DATA</find>
+      <find>class DATA</find>
+      <find>print</find>
+      <find>getTypes</find>
+      <find>getModel</find>
+      <find>MODL</find>
+      <find>MODT</find>
+      <find>EDID</find>
+      <find>getEDID</find>
+      <find>majorFlags</find>
+      <find>OBND</find>
+      <find>entries</find>
+      <find>merge</find>
+      <find>transl</find>
+      <find>getSubList</find>
+      <find>toPublic</find>
+      <find>type.toString()</find>
+      <find>getEntries</find>
+      <find>LeveledEntry</find>
+      <find>LeveledRecord</find>
+      <find>EFID</find>
+      <find>CTDAs</find>
+      <find>hash</find>
+      <find>KeywordSet</find>
+      <find>COCT</find>
+      <find>type[0]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>(String)(getTypes().get(0))</replace>
+      <replace>getType()</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../src/skyproc/FormID.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/GRUP.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/KeywordSet.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MajorRecord.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LeveledRecord.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LVLO.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LVLOList.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LVLOCount.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubList.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LVLI.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/LVLN.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/Model.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MagicEffectRef.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MagicItem.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MajorRecordDescription.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MajorRecordNamed.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ScriptPackage.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubData.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubFlag.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubFloat.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubFormArray.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubFormData.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubFormInt.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubInt.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubMarkerSet.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubRGB.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubListSorted.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubString.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SubStringPointer.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ALCH.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/AltTextures.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/AMMO.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ARMA.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ARMO.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/AVIF.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/COBJ.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ECZN.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ENCH.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/FACT.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/FLST.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/INGR.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MGEF.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/MISC.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/NPC_.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/OTFT.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/PERK.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/RACE.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/SPEL.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/WEAP.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/Merger.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/ModTags.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SkyProc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="skyproc" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="skyproc" type="cbb8eebc:String" user="skyproc" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SkyProc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SkyProc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SkyProc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SkyProc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lev/Lev Library Project/dist/lev.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcbad14f-4286-4793-9316-5ec1fd44042b" name="Default" comment="" />
+      <created>1517997988200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517997988200</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1288" height="988" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2956044" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25201938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2956044" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25201938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/LVLN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MagicEffectRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="259" column="9" lean-forward="true" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
+          <folding>
+            <element signature="method#MagicEffectRef#0;class#MagicEffectRef#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#MagicEffectRef#0" expanded="false" />
+            <element signature="method#equals#0;class#MagicEffectRef#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#MagicEffectRef#0" expanded="false" />
+            <element signature="method#hashCode#0;class#MagicEffectRef#0" expanded="false" />
+            <element signature="class#EFIT#0;class#MagicEffectRef#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/KeywordSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="160" column="27" lean-forward="true" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="547" column="0" lean-forward="false" selection-start-line="547" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
+          <folding>
+            <element signature="class#MajorFlags#0;class#MajorRecord#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecordDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecordNamed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ScriptPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="202" column="17" lean-forward="true" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubFloat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubFormArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubFormData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="175" column="9" lean-forward="true" selection-start-line="175" selection-start-column="9" selection-end-line="175" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubFormInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="139" column="45" lean-forward="false" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubMarkerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="171" column="44" lean-forward="false" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubRGB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="162" column="45" lean-forward="false" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="523" column="25" lean-forward="false" selection-start-line="523" selection-start-column="25" selection-end-line="523" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubStringPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="150" column="44" lean-forward="false" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubListSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="127" column="34" lean-forward="true" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ALCH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="372" column="9" lean-forward="true" selection-start-line="372" selection-start-column="9" selection-end-line="372" selection-end-column="9" />
+          <folding>
+            <element signature="class#536:1059" expanded="false" />
+            <element signature="class#ALCHFlag#0;class#ALCH#0" expanded="false" />
+            <element signature="method#ALCH#0;class#ALCH#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/AltTextures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="268" column="80" lean-forward="false" selection-start-line="268" selection-start-column="80" selection-end-line="268" selection-end-column="80" />
+          <folding>
+            <element signature="class#AltTexture#0;class#AltTextures#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/AMMO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="308" column="17" lean-forward="true" selection-start-line="308" selection-start-column="17" selection-end-line="308" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#AMMO#0" expanded="false" />
+            <element signature="class#DATA#0;class#AMMO#0" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#AMMO#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#AMMO#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#DATA#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;class#AMMOFlag#0;class#AMMO#0" expanded="false" />
+            <element signature="class#AMMOFlag#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;field#IgnoresWeaponResistance#0;class#AMMOFlag#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;field#NonPlayable#0;class#AMMOFlag#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;field#NonBolt#0;class#AMMOFlag#0;class#AMMO#0" expanded="false" />
+            <element signature="method#AMMO#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setModel#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getModel#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setPickupSound#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getPickupSound#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setDropSound#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getDropSound#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setProjectile#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getProjectile#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setDamage#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getDamage#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getAltTextures#0;class#AMMO#0" expanded="false" />
+            <element signature="docComment;method#getModelData#0;class#AMMO#0" expanded="false" />
+            <element signature="e#5413#5414#0" expanded="false" />
+            <element signature="e#5450#5451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ARMA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="453" column="9" lean-forward="true" selection-start-line="453" selection-start-column="9" selection-end-line="453" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#ARMA#0" expanded="false" />
+            <element signature="class#650:1645" expanded="false" />
+            <element signature="method#addRecords#0;class#650:1645" expanded="false" />
+            <element signature="e#820#835#0" expanded="false" />
+            <element signature="e#1115#1130#0" expanded="false" />
+            <element signature="class#DNAM#0;class#ARMA#0" expanded="false" />
+            <element signature="method#export#0;class#DNAM#0;class#ARMA#0" expanded="false" />
+            <element signature="method#parseData#0;class#DNAM#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#ARMA#0;class#ARMA#0" expanded="false" />
+            <element signature="method#ARMA#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getModelPathType#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setModelPath#0;class#ARMA#0" expanded="false" />
+            <element signature="method#setModelPath#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getModelPath#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getModelPath#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getAltTexType#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getAltTextures#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getAltTextures#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#equalAltTextures#0;class#ARMA#0" expanded="false" />
+            <element signature="method#equalAltTextures#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setRace#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getRace#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setSkinTexture#0;class#ARMA#0" expanded="false" />
+            <element signature="method#setSkinTexture#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getSkinTexture#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getSkinTexture#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setSkinSwap#0;class#ARMA#0" expanded="false" />
+            <element signature="method#setSkinSwap#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getSkinSwap#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getSkinSwap#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#addAdditionalRace#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#removeAdditionalRace#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getAdditionalRaces#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#clearAdditionalRaces#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setFootstepSound#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getFootstepSound#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setPriority#0;class#ARMA#0" expanded="false" />
+            <element signature="method#setPriority#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getPriority#0;class#ARMA#0" expanded="false" />
+            <element signature="method#getPriority#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setDetectionSoundValue#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getDetectionSoundValue#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#setWeaponAdjust#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getWeaponAdjust#0;class#ARMA#0" expanded="false" />
+            <element signature="docComment;method#getBodyTemplate#0;class#ARMA#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ARMO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="473" column="70" lean-forward="false" selection-start-line="473" selection-start-column="70" selection-end-line="473" selection-end-column="70" />
+          <folding>
+            <element signature="docComment;class#ARMO#0" expanded="false" />
+            <element signature="class#543:1677" expanded="false" />
+            <element signature="method#addRecords#0;class#543:1677" expanded="false" />
+            <element signature="docComment;method#ARMO#0;class#ARMO#0" expanded="false" />
+            <element signature="method#ARMO#0;class#ARMO#0" expanded="false" />
+            <element signature="class#DATA#0;class#ARMO#0" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#ARMO#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getArmatures#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#addArmature#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#removeArmature#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setEnchantment#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getEnchantment#0;class#ARMO#0" expanded="false" />
+            <element signature="method#getAltTexType#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getAltTextures#0;class#ARMO#0" expanded="false" />
+            <element signature="method#getAltTextures#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#equalAltTextures#0;class#ARMO#0" expanded="false" />
+            <element signature="method#equalAltTextures#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setModel#0;class#ARMO#0" expanded="false" />
+            <element signature="method#setModel#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getModel#0;class#ARMO#0" expanded="false" />
+            <element signature="method#getModel#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setPickupSound#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getPickupSound#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setDropSound#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getDropSound#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setEquipSlot#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getEquipSet#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setBashImpactData#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getBashImpactData#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setRace#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getRace#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setWeight#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getWeight#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setArmorRatingFloat#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getArmorRatingFloat#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setArmorRating#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getArmorRating#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setTemplate#0;class#ARMO#0" expanded="false" />
+            <element signature="method#setTemplate#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getTemplate#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getScriptPackage#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getBodyTemplate#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#isTemplated#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#getAlternateBlockMaterial#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#setAlternateBlockMaterial#0;class#ARMO#0" expanded="false" />
+            <element signature="docComment;method#updateBodyTemplate#0;class#ARMO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/AVIF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding>
+            <element signature="e#598#1000#0" expanded="false" />
+            <element signature="e#999#1000#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/COBJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ECZN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="276" column="1" lean-forward="true" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ENCH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="361" column="0" lean-forward="false" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ENCH#0" expanded="false" />
+            <element signature="class#589:823" expanded="false" />
+            <element signature="method#addRecords#0;class#589:823" expanded="false" />
+            <element signature="method#export#0;class#ENIT#0;class#ENCH#0" expanded="false" />
+            <element signature="method#parseData#0;class#ENIT#0;class#ENCH#0" expanded="false" />
+            <element signature="method#getContentLength#0;class#ENIT#0;class#ENCH#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#ENIT#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;class#EnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="class#EnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;field#Enchantment#0;class#EnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;field#StaffEnchantment#0;class#EnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="method#value#0;class#EnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;class#ENCHFlag#0;class#ENCH#0" expanded="false" />
+            <element signature="class#ENCHFlag#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;field#ManualCalc#0;class#ENCHFlag#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;field#ExtendDurationOnRecast#0;class#ENCHFlag#0;class#ENCH#0" expanded="false" />
+            <element signature="method#ENCH#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setBaseCost#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getBaseCost#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setCastType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getCastType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setChargeAmount#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getChargeAmount#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setDeliveryType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getDeliveryType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setEnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getEnchantType#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setChargeTime#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getChargeTime#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setBaseEnchantment#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getBaseEnchantment#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#setWornRestrictions#0;class#ENCH#0" expanded="false" />
+            <element signature="docComment;method#getWornRestrictions#0;class#ENCH#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/FACT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/FLST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="119" column="71" lean-forward="false" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/INGR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="399" column="17" lean-forward="true" selection-start-line="399" selection-start-column="17" selection-end-line="399" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#INGR#0" expanded="false" />
+            <element signature="class#539:962" expanded="false" />
+            <element signature="method#addRecords#0;class#539:962" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#INGR#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#INGR#0" expanded="false" />
+            <element signature="method#export#0;class#ENIT#0;class#INGR#0" expanded="false" />
+            <element signature="method#parseData#0;class#ENIT#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;class#INGRFlag#0;class#INGR#0" expanded="false" />
+            <element signature="class#INGRFlag#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;field#ManualCalc#0;class#INGRFlag#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;field#Food#0;class#INGRFlag#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;field#ReferencesPersist#0;class#INGRFlag#0;class#INGR#0" expanded="false" />
+            <element signature="method#INGR#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getScriptPackage#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setModel#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getModel#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setPickupSound#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getPickupSound#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setDropSound#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getDropSound#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setWeight#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getWeight#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setBaseCost#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getBaseCost#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setInventoryIcon#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getInventoryIcon#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setMessageIcon#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getMessageIcon#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#setEquipType#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getEquipType#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getAltTextures#0;class#INGR#0" expanded="false" />
+            <element signature="docComment;method#getModelData#0;class#INGR#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MGEF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="1385" column="17" lean-forward="true" selection-start-line="1385" selection-start-column="17" selection-end-line="1385" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#MGEF#0" expanded="false" />
+            <element signature="class#680:1346" expanded="false" />
+            <element signature="method#addRecords#0;class#680:1346" expanded="false" />
+            <element signature="class#DATA#0;class#MGEF#0" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#MGEF#0" expanded="false" />
+            <element signature="e#3202#3250#0" expanded="false" />
+            <element signature="e#3378#3393#0" expanded="false" />
+            <element signature="e#4039#4087#0" expanded="false" />
+            <element signature="e#4396#4443#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#MGEF#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#DATA#0;class#MGEF#0" expanded="false" />
+            <element signature="class#SNDD#0;class#MGEF#0" expanded="false" />
+            <element signature="method#export#0;class#SNDD#0;class#MGEF#0" expanded="false" />
+            <element signature="method#parseData#0;class#SNDD#0;class#MGEF#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#SNDD#0;class#MGEF#0" expanded="false" />
+            <element signature="method#Sound#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#Sound#1;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="method#Sound#1;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSoundData#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSoundData#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSoundID#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSoundID#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="method#equals#0;class#Sound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSNDD#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSounds#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSounds#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#addSound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#removeSound#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Hostile#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Recover#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Detrimental#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#SnapToNavmesh#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoHitEvent#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_6#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_7#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_8#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#DispellEffects#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoDuration#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoMagnitude#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoArea#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#FXPersist#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_14#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#GoryVisual#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#HideInUI#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_17#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoRecast#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_19#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_20#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_21#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#PowerAffectsMagnitude#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#PowerAffectsDuration#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_24#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_25#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_26#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Painless#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoHitEffect#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#NoDeathDispel#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_31#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Unknown_32#0;class#SpellEffectFlag#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#SheathDraw#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Charge#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Ready#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#Release#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#ConcentrationCastLoop#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;field#OnHit#0;class#SoundData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#MGEF#0;class#MGEF#0" expanded="false" />
+            <element signature="method#MGEF#0;class#MGEF#0" expanded="false" />
+            <element signature="method#MGEF#1;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getDescription#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setDescription#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getScriptPackage#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setBaseCost#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getBaseCost#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setRelatedID#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getRelatedID#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSkillType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSkillType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setResistanceAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getResistanceAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setCounterEffectCount#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getCounterEffectCount#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setLight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getLight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setTaperWeight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getTaperWeight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setHitShader#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getHitShader#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setEnchantShader#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getEnchantShader#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSkillLevel#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSkillLevel#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setArea#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getArea#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setCastingTime#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getCastingTime#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setTaperCurve#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getTaperCurve#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setTaperDuration#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getTaperDuration#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSecondAVWeight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSecondAVWeight#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setEffectType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getEffectType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setPrimaryAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getPrimaryAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setProjectile#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getProjectile#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setExplosion#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getExplosion#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setCastType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getCastType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setDeliveryType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getDeliveryType#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSecondAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSecondAV#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setCastingArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getCastingArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setHitEffectArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getHitEffectArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setImpactData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getImpactData#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSkillUsageMult#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSkillUsageMult#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setDualCast#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getDualCast#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setDualCastScale#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getDualCastScale#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setEnchantArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getEnchantArt#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setEquipAbility#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getEquipAbility#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setImageSpaceMod#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getImageSpaceMod#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setPerk#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getPerk#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setSoundVolume#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getSoundVolume#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setScriptAIDataScore#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getScriptAIDataScore#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#setScriptAIDataTime#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getScriptAIDataTime#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#getConditions#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#addCondition#0;class#MGEF#0" expanded="false" />
+            <element signature="docComment;method#removeCondition#0;class#MGEF#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MISC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="258" column="9" lean-forward="true" selection-start-line="258" selection-start-column="9" selection-end-line="258" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/NPC_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="3063" column="9" lean-forward="true" selection-start-line="3063" selection-start-column="9" selection-end-line="3063" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#NPC_#0" expanded="false" />
+            <element signature="class#525:2660" expanded="false" />
+            <element signature="method#addRecords#0;class#525:2660" expanded="false" />
+            <element signature="docComment;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#SoundPackage#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setLocation#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getLocation#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#getLocation#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSoundPairs#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#getSoundPairs#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addSoundPair#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#merge#0;class#SoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#SoundPair#1;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="method#SoundPair#1;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setChance#0;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setChance#0;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getChance#0;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setSound#0;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSound#0;class#SoundPair#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#TintLayer#1;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="method#TintLayer#1;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setIndex#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getIndex#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setColor#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getColor#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setInterpolation#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setInterpolation#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getInterpolation#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="method#getInterpolation#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setPreset#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getPreset#0;class#TintLayer#0;class#NPC_#0" expanded="false" />
+            <element signature="class#DNAM#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#DNAM#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#DNAM#0;class#NPC_#0" expanded="false" />
+            <element signature="method#merge#0;class#DNAM#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#ACBS#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#ACBS#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#AIDT#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#AIDT#0;class#NPC_#0" expanded="false" />
+            <element signature="class#AttackPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#ATKD#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#ATKD#0;class#NPC_#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#ATKD#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#NAM9#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#NAM9#0;class#NPC_#0" expanded="false" />
+            <element signature="method#export#0;class#NAMA#0;class#NPC_#0" expanded="false" />
+            <element signature="method#parseData#0;class#NAMA#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#DISPOSITION_BASE#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#FATIGUE_BASE#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#LEVEL#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#MIN_CALC_LEVEL#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#MAX_CALC_LEVEL#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#SPEED_MULT#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#SPELL_POINTS_BASE#0;class#NPCStat#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Idle#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Aware#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Attack#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Hit#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Death#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Weapon#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#MovementLoop#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#ConsciousLoop#0;class#SoundLocation#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_TRAITS#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_STATS#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_FACTIONS#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_SPELL_LIST#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_AI_DATA#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_AI_PACKAGES#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_BASE_DATA#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_INVENTORY#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_SCRIPTS#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_DEF_PACK_LIST#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_ATTACK_DATA#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#USE_KEYWORDS#0;class#TemplateFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Female#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Essential#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#IsCharGenFacePreset#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Respawn#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#AutoCalcStats#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unique#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#DoesntAffectStealthMeter#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#PCLevelMult#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#UseTemplate#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_9#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_10#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Protected#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_12#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_13#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Summonable#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_15#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#DoesntBleed#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_17#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#BleedoutOverride#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#OppositeGenderAnims#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#SimpleActor#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#LoopedScript#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_22#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_23#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_24#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_25#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_26#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_27#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#LoopedAudio#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#IsGhost#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unknown_30#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Invulnerable#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#AggroRadiusBehavior#0;class#NPCFlag#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Unaggressive#0;class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Aggressive#0;class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#VeryAggressive#0;class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Frenzied#0;class#Aggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#Assistance#0;class#NPC_#0" expanded="false" />
+            <element signature="class#Assistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#HelpsNobody#0;class#Assistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#HelpsAllies#0;class#Assistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#HelpsFriends#0;class#Assistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#AnyCrime#0;class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#ViolenceAgainstEnemies#0;class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#PropertyCrimeOnly#0;class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#NoCrime#0;class#Morality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Cowardly#0;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Cautious#0;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Average#0;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Brave#0;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Foolhardy#0;class#Confidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Neutral#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Angry#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Fear#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Happy#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Sad#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Surprised#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Puzzled#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#Disgusted#0;class#Mood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#NoseLongShort#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#NoseUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#JawUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#JawNarrowWide#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#JawForwardBack#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#CheeksUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#CheeksForwardBack#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#EyesUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#EyesInOut#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#BrowsUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#BrowsInOut#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#BrowsForwardBack#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#LipsUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#LipsInOut#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#ChinThinWide#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#ChinUpDown#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#ChinOverbite#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;field#EyesForwardBack#0;class#FacePart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#templateTo#0;class#NPC_#0" expanded="false" />
+            <element signature="method#templateTo#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#templateTo#1;class#NPC_#0" expanded="false" />
+            <element signature="method#templateTo#1;class#NPC_#0" expanded="false" />
+            <element signature="method#templateToInternal#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#isTemplatedToLList#0;class#NPC_#0" expanded="false" />
+            <element signature="method#isTemplatedToLList#0;class#NPC_#0" expanded="false" />
+            <element signature="method#NPC_#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getScriptPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFactions#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="method#addFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="method#removeFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearFactions#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getPerks#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addPerk#0;class#NPC_#0" expanded="false" />
+            <element signature="method#addPerk#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removePerk#0;class#NPC_#0" expanded="false" />
+            <element signature="method#removePerk#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearPerks#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#get#1;class#NPC_#0" expanded="false" />
+            <element signature="method#get#1;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#set#1;class#NPC_#0" expanded="false" />
+            <element signature="method#set#1;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#get#2;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#set#2;class#NPC_#0" expanded="false" />
+            <element signature="method#set#2;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getMod#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setMod#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setMod#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAggression#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setConfidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getConfidence#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setMorality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getMorality#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAssistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAssistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#get#3;class#NPC_#0" expanded="false" />
+            <element signature="method#get#3;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#set#3;class#NPC_#0" expanded="false" />
+            <element signature="method#set#3;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setDeathItem#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getDeathItem#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setVoiceType#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getVoiceType#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setTemplate#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getTemplate#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#isTemplated#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setRace#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getRace#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSpells#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addSpell#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeSpell#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearSpells#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addItem#0;class#NPC_#0" expanded="false" />
+            <element signature="method#addItem#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addItem#1;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeItem#0;class#NPC_#0" expanded="false" />
+            <element signature="method#removeItem#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearItems#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getItems#0;class#NPC_#0" expanded="false" />
+            <element signature="method#getItemForms#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addAIPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#addAIPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeAIPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="method#removeAIPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAIPackages#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearAIPackages#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setNPCClass#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getNPCClass#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setHairColor#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getHairColor#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setSkin#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSkin#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAttackDataRace#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAttackDataRace#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setDefaultOutfit#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getDefaultOutfit#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setSleepingOutfit#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSleepingOutfit#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setCombatStyle#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getCombatStyle#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setCrimeFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getCrimeFaction#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFeatureSet#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFeatureSet#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAudioTemplate#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAudioTemplate#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setDefaultPackageList#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getDefaultPackageList#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setHeight#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getHeight#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setWeight#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getWeight#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFarAwayModelSkin#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFarAwayModelSkin#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFarAwayModelDistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFarAwayModelDistance#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setHealthOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getHealthOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setMagickaOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getMagickaOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFatigueOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFatigueOffset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setMood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getMood#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setEnergy#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getEnergy#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAggroWarn#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAggroWarn#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAggroWarnAttack#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAggroWarnAttack#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setAggroAttack#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAggroAttack#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setGiftFilter#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getGiftFilter#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setGearedUpWeapons#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getGearedUpWeapons#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setSpectatorOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSpectatorOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setObserveDeadOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getObserveDeadOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setGuardWornOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getGuardWornOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setCombatOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getCombatOverride#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setShortName#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getShortName#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setSoundVolume#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSoundVolume#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFaceValue#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setFaceValue#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFaceValue#0;class#NPC_#0" expanded="false" />
+            <element signature="method#getFaceValue#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getTinting#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addTinting#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeTinting#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearTinting#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getSounds#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addSoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeSoundPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearSoundPackages#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getFaceTint#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setFaceTint#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getNosePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setNosePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setNosePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getEyePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setEyePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setEyePreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getMouthPreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#setMouthPreset#0;class#NPC_#0" expanded="false" />
+            <element signature="method#setMouthPreset#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getHeadParts#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addHeadPart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeHeadPart#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearHeadParts#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getAttackPackages#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#addAttackPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#removeAttackPackage#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#clearAttackPackages#0;class#NPC_#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#NPC_#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/OTFT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/PERK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="292" column="71" lean-forward="false" selection-start-line="292" selection-start-column="71" selection-end-line="292" selection-end-column="71" />
+          <folding>
+            <element signature="e#1173#1336#0" expanded="false" />
+            <element signature="e#1335#1336#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/RACE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="2066" column="9" lean-forward="true" selection-start-line="2066" selection-start-column="9" selection-end-line="2066" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#RACE#0" expanded="false" />
+            <element signature="class#1240:5113" expanded="false" />
+            <element signature="method#addRecords#0;class#1240:5113" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#RACE#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#RACE#0" expanded="false" />
+            <element signature="method#getContentLength#0;class#DATA#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="method#copy#0;class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="method#export#0;class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="method#parseData#0;class#AttackDataInternal#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#AttackData#1;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="method#AttackData#1;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getEventName#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#copyData#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="method#equals#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="method#hashCode#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setDamageMult#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getDamageMult#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAttackChance#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackChance#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAttackSpell#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackSpell#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAttackAngle#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackAngle#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStrikeAngle#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStrikeAngle#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStagger#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStagger#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAttackType#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackType#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setKnockDown#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getKnockDown#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setRecoveryTime#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getRecoveryTime#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setFatigueMult#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFatigueMult#0;class#AttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Playable#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#FaceGenHead#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Child#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#TiltFrontBack#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#TiltLeftRight#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NoShadow#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Swims#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Flies#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Walks#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#Immobile#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NotPushable#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NoCombatInWater#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NoRotatingToHeadTrack#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#DontShowBloodSpray#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#DontShowBloodDecal#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#UsesHeadTrackAnims#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#SpellsAlignWithMagicNode#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#UseWorldRaycastsForFootIK#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AllowRagdollCollision#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#RegenHPInCombat#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#CantOpenDoors#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AllowPCDialogue#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NoKnockdowns#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AllowPickpocket#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AlwaysUseProxyController#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#DontShowWeaponBlood#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#OverlayHeadPartList#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#OverrideHeadPartList#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#CanPickupItems#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AllowMultipleMembraneShaders#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#CanDualWeild#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AvoidsRoads#0;class#RACEFlags#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;class#RaceFlags2#0;class#RACE#0" expanded="false" />
+            <element signature="class#RaceFlags2#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#UseAdvancedAvoidance#0;class#RaceFlags2#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#NonHostile#0;class#RaceFlags2#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#AllowMountedCombat#0;class#RaceFlags2#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#SMALL#0;class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#MEDIUM#0;class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#LARGE#0;class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;field#EXTRALARGE#0;class#Size#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#RACE#0;class#RACE#0" expanded="false" />
+            <element signature="method#RACE#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getWornArmor#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setWornArmor#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getSpells#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#addSpell#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#removeSpell#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearSpells#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setModel#0;class#RACE#0" expanded="false" />
+            <element signature="method#getMFData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getModel#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setVoiceType#0;class#RACE#0" expanded="false" />
+            <element signature="method#setVoiceType#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getVoiceType#0;class#RACE#0" expanded="false" />
+            <element signature="method#getVoiceType#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setHairColor#0;class#RACE#0" expanded="false" />
+            <element signature="method#setHairColor#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getHairColor#0;class#RACE#0" expanded="false" />
+            <element signature="method#getHairColor#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setDecapHeadPart#0;class#RACE#0" expanded="false" />
+            <element signature="method#setDecapHeadPart#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getDecapHeadPart#0;class#RACE#0" expanded="false" />
+            <element signature="method#getDecapHeadPart#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setHeight#0;class#RACE#0" expanded="false" />
+            <element signature="method#setHeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getHeight#0;class#RACE#0" expanded="false" />
+            <element signature="method#getHeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAccelerationRate#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAccelerationRate#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAimAngleTolerance#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAimAngleTolerance#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAngularAcceleration#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAngularAcceleration#0;class#RACE#0" expanded="false" />
+            <element signature="method#setAngularAcceleration#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAngularTolerance#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAngularTolerance#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getBaseCarryWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setBaseCarryWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getBaseMass#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setBaseMass#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getDecelerationRate#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setDecelerationRate#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFemaleWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setFemaleWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFlightRadius#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setFlightRadius#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getHealthRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setHealthRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getInjuredHealthPct#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setInjuredHealthPct#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMagickaRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setMagickaRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMaleHeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setMaleHeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMaleWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setMaleWeight#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getSize#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setSize#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStaminaRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStaminaRegen#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStartingHealth#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStartingHealth#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStartingMagicka#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStartingMagicka#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getStartingStamina#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setStartingStamina#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getUnarmedDamage#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setUnarmedDamage#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getUnarmedReach#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setUnarmedReach#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#addAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#removeAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#copyAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="method#copyAttackData#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMaterialType#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setMaterialType#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getImpactDataSet#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setImpactDataSet#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getDecapitationFX#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setDecapitationFX#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getOpenLootSound#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setOpenLootSound#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getCloseLootSound#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setCloseLootSound#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getUnarmedEquipSlot#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setUnarmedEquipSlot#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearTinting#0;class#RACE#0" expanded="false" />
+            <element signature="method#getBodyData#1;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getLightingModels#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setLightingModels#0;class#RACE#0" expanded="false" />
+            <element signature="method#getBehaviorGraph#1;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getPhysicsModels#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setPhysicsModels#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getPhysicsModel#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getEquipSlots#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#addEquipSlot#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#removeEquipSlot#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearEquipSlots#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getBodyTemplate#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setArmorRace#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getArmorRace#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setMorphRace#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMorphRace#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setSkillBoost#0;class#RACE#0" expanded="false" />
+            <element signature="method#setSkillBoost#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getSkillBoostSkill#0;class#RACE#0" expanded="false" />
+            <element signature="method#getSkillBoostSkill#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getSkillBoostValue#0;class#RACE#0" expanded="false" />
+            <element signature="method#getSkillBoostValue#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setHeadBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getHeadBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setHairBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getHairBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setShieldBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getShieldBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setBodyBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getBodyBipedObject#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#set#1;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#get#1;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getMovementTypeNames#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#addMovementTypeName#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearMovementTypeNames#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#removeMovementTypeName#0;class#RACE#0" expanded="false" />
+            <element signature="method#removeMovementTypeName#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setFaceGenMainClamp#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFaceGenMainClamp#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setFaceGenFaceClamp#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFaceGenFaceClamp#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setAttackRace#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getAttackRace#0;class#RACE#0" expanded="false" />
+            <element signature="method#getHeadData#1;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#setDefaultFaceTexture#0;class#RACE#0" expanded="false" />
+            <element signature="method#setDefaultFaceTexture#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getDefaultFaceTexture#0;class#RACE#0" expanded="false" />
+            <element signature="method#getDefaultFaceTexture#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#getFaceDetailsTextureSet#0;class#RACE#0" expanded="false" />
+            <element signature="method#getFaceDetailsTextureSet#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#addFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+            <element signature="method#addFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#removeFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+            <element signature="method#removeFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+            <element signature="docComment;method#clearFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+            <element signature="method#clearFaceDetailsTexture#0;class#RACE#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MagicItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-857">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="class#SPELFlag#0;class#MagicItem#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SPEL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="310" column="9" lean-forward="true" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#SPEL#0" expanded="false" />
+            <element signature="class#418:643" expanded="false" />
+            <element signature="method#addRecords#0;class#418:643" expanded="false" />
+            <element signature="docComment;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Spell#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Disease#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Power#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#LesserPower#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Ability#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Addition#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#Voice#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;field#UNKNOWN#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="method#value#0;class#SPELType#0;class#SPEL#0" expanded="false" />
+            <element signature="method#SPEL#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#SPEL#1;class#SPEL#0" expanded="false" />
+            <element signature="method#SPEL#1;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setInventoryModel#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getInventoryModel#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setEquipSlot#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getEquipSlot#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setBaseCost#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getBaseCost#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setSpellType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getSpellType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setChargeTime#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getChargeTime#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setCastType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getCastType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setDeliveryType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getDeliveryType#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setCastDuration#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getCastDuration#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setRange#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getRange#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#getPerkRef#0;class#SPEL#0" expanded="false" />
+            <element signature="docComment;method#setPerkRef#0;class#SPEL#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/WEAP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="379" column="9" lean-forward="true" selection-start-line="379" selection-start-column="9" selection-end-line="379" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#WEAP#0" expanded="false" />
+            <element signature="class#643:1787" expanded="false" />
+            <element signature="method#addRecords#0;class#643:1787" expanded="false" />
+            <element signature="class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="method#DNAM#1;class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="method#export#0;class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="method#parseData#0;class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="method#get#0;class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="method#set#0;class#DNAM#0;class#WEAP#0" expanded="false" />
+            <element signature="class#DATA#0;class#WEAP#0" expanded="false" />
+            <element signature="method#DATA#1;class#DATA#0;class#WEAP#0" expanded="false" />
+            <element signature="method#export#0;class#DATA#0;class#WEAP#0" expanded="false" />
+            <element signature="method#parseData#0;class#DATA#0;class#WEAP#0" expanded="false" />
+            <element signature="e#11538#11539#0" expanded="false" />
+            <element signature="e#11555#11556#0" expanded="false" />
+            <element signature="e#12786#12787#0" expanded="false" />
+            <element signature="e#12813#12814#0" expanded="false" />
+            <element signature="e#12846#12847#0" expanded="false" />
+            <element signature="e#12867#12868#0" expanded="false" />
+            <element signature="e#12920#12921#0" expanded="false" />
+            <element signature="e#12939#12940#0" expanded="false" />
+            <element signature="e#13124#13125#0" expanded="false" />
+            <element signature="e#13167#13168#0" expanded="false" />
+            <element signature="docComment;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#HandToHandMelee#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#OneHSword#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#Dagger#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#OneHAxe#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#OneHBlunt#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#TwoHSword#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#TwoHBluntAxe#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#Bow#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#Staff#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#Crossbow#0;class#WeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#IgnoresNormalWeaponResistance#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#HideBackpack#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#NonPlayable#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#CantDrop#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#PlayerOnly#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#NPCsUseAmmo#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#NoJamAfterReload#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#MinorCrime#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#NotUsedInNormalCombat#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#NonHostile#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;field#BoundWeapon#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="method#WeaponFlag#0;class#WeaponFlag#0;class#WEAP#0" expanded="false" />
+            <element signature="method#WEAP#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getScriptPackage#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getKeywordSet#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setWeight#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getWeight#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setDamage#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getDamage#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setEnchantmentCharge#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getEnchantmentCharge#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setEnchantment#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getEnchantment#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setEquipmentSlot#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getEquipmentSlot#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setImpactSet#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getImpactSet#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setModelFilename#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getModelFilename#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setSheathSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getSheathSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setDrawSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getDrawSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setSwingSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getSwingSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setBoundWeaponSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getBoundWeaponSound#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setWeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getWeaponType#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setSpeed#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getSpeed#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setReach#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getReach#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setSightFOV#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getSightFOV#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setVATS#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getVATS#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setNumProjectiles#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getNumProjectiles#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setMinRange#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getMinRange#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setMaxRange#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getMaxRange#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setStagger#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getStagger#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setCritDamage#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getCritDamage#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setCritMult#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getCritMult#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setCritEffectOnDeath#0;class#WEAP#0" expanded="false" />
+            <element signature="method#setCritEffectOnDeath#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getCritEffectOnDeath#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setCritEffect#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getCritEffect#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getSkill#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setSkill#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getDetectionSoundLevel#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setDetectionSoundLevel#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="method#setTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="method#getTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#isTemplated#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getTemplateTop#0;class#WEAP#0" expanded="false" />
+            <element signature="method#getTemplateTop#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getAltTextures#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getModelData#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#equalAltTextures#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getFirstPersonModel#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setFirstPersonModel#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getBlockBashImpactDataSet#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setBlockBashImpactDataSet#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#getAlternateBlockMaterial#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#setAlternateBlockMaterial#0;class#WEAP#0" expanded="false" />
+            <element signature="docComment;method#unTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="method#unTemplate#0;class#WEAP#0" expanded="false" />
+            <element signature="method#merge#0;class#WEAP#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/GRUP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="36" />
+          <folding>
+            <element signature="docComment;class#GRUP#0" expanded="false" />
+            <element signature="method#GRUP#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#getContainedType#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#isValid#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#GRUP#0" expanded="false" />
+            <element signature="method#parseData#0;class#GRUP#0" expanded="false" />
+            <element signature="method#extractMajor#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#GRUP#0" expanded="false" />
+            <element signature="method#print#0;class#GRUP#0" expanded="false" />
+            <element signature="method#export#0;class#GRUP#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#numRecords#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#removeRecord#0;class#GRUP#0" expanded="false" />
+            <element signature="method#removeRecord#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#removeRecord#1;class#GRUP#0" expanded="false" />
+            <element signature="method#handleBadRecord#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#addRecord#0;class#GRUP#0" expanded="false" />
+            <element signature="method#addRecord#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#getRecords#0;class#GRUP#0" expanded="false" />
+            <element signature="e#6064#6065#0" expanded="false" />
+            <element signature="e#6091#6092#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#contains#1;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#contains#2;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#get#1;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#GRUP#0" expanded="false" />
+            <element signature="method#clear#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#merge#0;class#GRUP#0" expanded="false" />
+            <element signature="method#merge#0;class#GRUP#0" expanded="false" />
+            <element signature="method#getContentLength#0;class#GRUP#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#GRUP#0" expanded="false" />
+            <element signature="method#iterator#0;class#GRUP#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/Mod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="32" selection-end-line="499" selection-end-column="40" />
+          <folding>
+            <element signature="docComment;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#Mod#0;class#Mod#0" expanded="false" />
+            <element signature="method#Mod#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#Mod#1;class#Mod#0" expanded="false" />
+            <element signature="method#Mod#2;class#Mod#0" expanded="false" />
+            <element signature="method#deleteStringsFiles#0;class#Mod#0" expanded="false" />
+            <element signature="method#init#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getNthMaster#0;class#Mod#0" expanded="false" />
+            <element signature="method#getNthMaster#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#numMasters#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#Mod#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#exists#0;class#Mod#0" expanded="false" />
+            <element signature="method#exists#0;class#Mod#0" expanded="false" />
+            <element signature="method#addMaster#0;class#Mod#0" expanded="false" />
+            <element signature="method#closeStreams#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMajor#0;class#Mod#0" expanded="false" />
+            <element signature="method#getMajor#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMajor#1;class#Mod#0" expanded="false" />
+            <element signature="method#getMajor#1;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#makeCopy#0;class#Mod#0" expanded="false" />
+            <element signature="method#makeCopy#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#makeCopy#1;class#Mod#0" expanded="false" />
+            <element signature="method#makeCopy#1;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#makeCopy#2;class#Mod#0" expanded="false" />
+            <element signature="method#makeCopy#2;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getContainedTypes#0;class#Mod#0" expanded="false" />
+            <element signature="method#getContainedTypes#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#addRecord#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#Mod#0" expanded="false" />
+            <element signature="method#print#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Mod#0" expanded="false" />
+            <element signature="method#allFormIDs#0;class#Mod#0" expanded="false" />
+            <element signature="method#openStringStreams#0;class#Mod#0" expanded="false" />
+            <element signature="method#addStream#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMastersStrings#0;class#Mod#0" expanded="false" />
+            <element signature="method#getMastersStrings#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMasters#0;class#Mod#0" expanded="false" />
+            <element signature="method#getMasters#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getGRUPs#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#keep#0;class#Mod#0" expanded="false" />
+            <element signature="method#keep#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#addAsOverrides#0;class#Mod#0" expanded="false" />
+            <element signature="method#addAsOverrides#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#addAsOverrides#1;class#Mod#0" expanded="false" />
+            <element signature="method#addAsOverrides#1;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#addAsOverrides#2;class#Mod#0" expanded="false" />
+            <element signature="method#addAsOverrides#2;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#addAsOverrides#3;class#Mod#0" expanded="false" />
+            <element signature="method#addAsOverrides#3;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#numRecords#0;class#Mod#0" expanded="false" />
+            <element signature="method#numRecords#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getRecords#0;class#Mod#0" expanded="false" />
+            <element signature="method#getRecords#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#Mod#0" expanded="false" />
+            <element signature="method#contains#0;class#Mod#0" expanded="false" />
+            <element signature="method#getMasterIndex#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#export#0;class#Mod#0" expanded="false" />
+            <element signature="method#export#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#export#1;class#Mod#0" expanded="false" />
+            <element signature="method#export#1;class#Mod#0" expanded="false" />
+            <element signature="method#export#2;class#Mod#0" expanded="false" />
+            <element signature="e#23807#23862#0" expanded="false" />
+            <element signature="e#25286#25356#0" expanded="false" />
+            <element signature="docComment;method#exportMasterList#0;class#Mod#0" expanded="false" />
+            <element signature="method#exportMasterList#0;class#Mod#0" expanded="false" />
+            <element signature="method#addOutString#0;class#Mod#0" expanded="false" />
+            <element signature="method#addOutString#1;class#Mod#0" expanded="false" />
+            <element signature="method#genStringsPath#0;class#Mod#0" expanded="false" />
+            <element signature="method#sortMasters#0;class#Mod#0" expanded="false" />
+            <element signature="method#exportStringsFile#0;class#Mod#0" expanded="false" />
+            <element signature="method#validateListEntries#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#setAuthor#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getAuthor#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#setDescription#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getDescription#0;class#Mod#0" expanded="false" />
+            <element signature="method#parseData#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#isFlag#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#setFlag#0;class#Mod#0" expanded="false" />
+            <element signature="method#setFlag#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getLeveledCreatures#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getNPCs#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getQuests#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getImageSpaces#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getPerks#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getSpells#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getRaces#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getArmors#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getArmatures#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getTextureSets#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getWeapons#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getKeywords#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getFormLists#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMagicEffects#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getAlchemy#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getIngredients#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getAmmo#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getFactions#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getGameSettings#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getEnchantments#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getLeveledItems#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getActorValues#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getEncounterZones#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getGlobals#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getConstructibleObjects#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getMiscObjects#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getOutfits#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getHeadParts#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getProjectiles#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getLightingTemplates#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getBooks#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getWeathers#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getDialogs#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getDialogBranches#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getDialogViews#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getContainers#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getVoiceTypes#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getStatics#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getScrolls#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getInfo#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#getNameNoSuffix#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#Mod#0" expanded="false" />
+            <element signature="method#compareTo#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Mod#0" expanded="false" />
+            <element signature="method#equals#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#Mod#0" expanded="false" />
+            <element signature="method#remove#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#Mod#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#Mod#0" expanded="false" />
+            <element signature="class#TES4#0;class#Mod#0" expanded="false" />
+            <element signature="method#TES4#0;class#TES4#0;class#Mod#0" expanded="false" />
+            <element signature="method#TES4#1;class#TES4#0;class#Mod#0" expanded="false" />
+            <element signature="method#parseData#0;class#TES4#0;class#Mod#0" expanded="false" />
+            <element signature="method#export#0;class#TES4#0;class#Mod#0" expanded="false" />
+            <element signature="class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="method#HEDR#0;class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="method#HEDR#1;class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="method#export#0;class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="method#parseData#0;class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="method#clear#0;class#HEDR#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+            <element signature="class#Mod_Flags#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;field#MASTER#0;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+            <element signature="docComment;field#STRING_TABLED#0;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModListing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#ModListing#0;class#ModListing#0" expanded="false" />
+            <element signature="method#ModListing#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#ModListing#1;class#ModListing#0" expanded="false" />
+            <element signature="method#ModListing#1;class#ModListing#0" expanded="false" />
+            <element signature="method#setString#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#ModListing#0" expanded="false" />
+            <element signature="method#print#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#printNoSuffix#0;class#ModListing#0" expanded="false" />
+            <element signature="method#export#0;class#ModListing#0" expanded="false" />
+            <element signature="method#parseData#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#ModListing#0" expanded="false" />
+            <element signature="method#equals#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#ModListing#0" expanded="false" />
+            <element signature="method#hashCode#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#ModListing#0" expanded="false" />
+            <element signature="method#compareTo#0;class#ModListing#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/Merger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="method#merge#0;class#Merger#0" expanded="false" />
+            <element signature="method#merge#1;class#Merger#0" expanded="false" />
+            <element signature="method#merge#2;class#Merger#0" expanded="false" />
+            <element signature="method#merge#3;class#Merger#0" expanded="false" />
+            <element signature="method#merge#4;class#Merger#0" expanded="false" />
+            <element signature="method#merge#5;class#Merger#0" expanded="false" />
+            <element signature="method#merge#6;class#Merger#0" expanded="false" />
+            <element signature="docComment;method#merge#7;class#Merger#0" expanded="false" />
+            <element signature="method#merge#7;class#Merger#0" expanded="false" />
+            <element signature="method#merge#8;class#Merger#0" expanded="false" />
+            <element signature="method#merge#9;class#Merger#0" expanded="false" />
+            <element signature="method#logMerge#0;class#Merger#0" expanded="false" />
+            <element signature="method#logMerge#1;class#Merger#0" expanded="false" />
+            <element signature="method#logMerge#2;class#Merger#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPSettingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SUMprogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="692" column="0" lean-forward="true" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>skyproc:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>skyproc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lev</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

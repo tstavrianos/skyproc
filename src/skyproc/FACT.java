@@ -58,4 +58,21 @@ public class FACT extends MajorRecordNamed {
     Record getNew() {
 	return new FACT();
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		FACT r = this;
+		if (!(no == null && bo == null && (no instanceof FACT) && (bo instanceof FACT))) {
+			final FACT nr = (FACT) no;
+			final FACT br = (FACT) bo;
+			SubRecords sList = r.subRecords;
+			SubRecords nsList = nr.subRecords;
+			SubRecords bsList = br.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return r;
+	}
 }

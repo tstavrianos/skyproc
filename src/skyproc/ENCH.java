@@ -110,6 +110,25 @@ public class ENCH extends MagicItem {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("ENIT");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			ENIT e = this;
+			if (!(no == null && bo == null && (no instanceof ENIT) && (bo instanceof ENIT))) {
+				final ENIT ne = (ENIT) no;
+				final ENIT be = (ENIT) bo;
+				Merger.merge(e.baseCost, ne.baseCost, be.baseCost, getType(), "base cost");
+				e.flags = Merger.merge(e.flags, ne.flags, be.flags, getType());
+				Merger.merge(e.castType, ne.castType, be.castType, getType(), "cast type");
+				e.baseEnchantment.merge(ne.baseEnchantment, be.baseEnchantment, getType());
+				e.wornRestrictions.merge(ne.wornRestrictions, be.wornRestrictions, getType());
+				Merger.merge(e.chargeAmount, ne.chargeAmount, be.chargeAmount, getType(), "charge amount");
+				Merger.merge(e.targetType, ne.targetType, be.targetType, getType(), "target type");
+				Merger.merge(e.enchantType, ne.enchantType, be.enchantType, getType(), "enchant type");
+				Merger.merge(e.chargeTime, ne.chargeTime, be.chargeTime, getType(), "charge time");
+			}
+			return e;
+		}
     }
 
     // Enums
@@ -328,4 +347,21 @@ public class ENCH extends MagicItem {
     public FormID getWornRestrictions() {
 	return getENIT().wornRestrictions;
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		ENCH e = this;
+		if (!(no == null && bo == null && (no instanceof ENCH) && (bo instanceof ENCH))) {
+			final ENCH ne = (ENCH) no;
+			final ENCH be = (ENCH) bo;
+			SubRecords sList = e.subRecords;
+			SubRecords nsList = ne.subRecords;
+			SubRecords bsList = be.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return e;
+	}
 }

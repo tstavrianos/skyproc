@@ -64,6 +64,8 @@ public class Model extends SubShell {
 	return ((AltTextures) subRecords.get("MODS")).altTextures;
     }
 
+    SubString getMODL() {return subRecords.getSubString("MODL");}
+    SubData getMODT() {return subRecords.getSubData("MODT");}
     /**
      *
      * @param rhs Other MISC record.
@@ -73,5 +75,18 @@ public class Model extends SubShell {
      */
     public boolean equalAltTextures(Model rhs) {
 	return AltTextures.equal(getAltTextures(), rhs.getAltTextures());
+    }
+
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        super.merge(no, bo);
+        Model l = this;
+        if (!(no == null && bo == null && (no instanceof Model) && (bo instanceof Model))) {
+            final Model nl = (Model) no;
+            final Model bl = (Model) bo;
+            l.getMODL().merge(nl.getMODL(), bl.getMODL());
+            l.getMODT().merge(nl.getMODT(), bl.getMODT());
+        }
+        return l;
     }
 }

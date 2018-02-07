@@ -530,4 +530,21 @@ public abstract class MajorRecord extends Record implements Serializable {
     public ArrayList<MajorRecord> getRecordHistory(){
         return new ArrayList<>(recordHistory.get(ID));
     }
+
+    SubString getEDIDraw() {return subRecords.getSubString("EDID");}
+    /**
+     * Merges Major Records.
+     *
+     * @param no The new MajorRecord to be merged.
+     * @param bo The base MajorRecord, to prevent base data from being
+     * re-merged.
+     * @return The modified MajorRecord.
+     */
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        MajorRecord m = this;
+        m.ID.merge(no.ID, bo.ID);
+        m.getEDIDraw().merge(no.getEDIDraw(), bo.getEDIDraw());
+        m.majorFlags = Merger.merge(m.majorFlags, no.majorFlags, bo.majorFlags);
+        return m;
+    }
 }

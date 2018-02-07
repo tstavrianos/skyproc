@@ -185,5 +185,27 @@ class SubStringPointer extends SubRecordTyped {
 	return true;
     }
 
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubStringPointers with logging capabilities. Accesses the
+	 * SubString merge code for merging the text.
+	 *
+	 * @param no The new SubStringPointer to be merged in.
+	 * @param bo The base SubStringPointer, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubStringPointer.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubStringPointer s = this;
+		if (!(no == null && bo == null && (no instanceof SubStringPointer) && (bo instanceof SubStringPointer))) {
+			final SubStringPointer newstring = (SubStringPointer) no;
+			final SubStringPointer basestring = (SubStringPointer) bo;
+			s.text.merge(newstring.text, basestring.text);
+		}
+		return s;
+	}
 
 }

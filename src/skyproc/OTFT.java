@@ -77,4 +77,21 @@ public class OTFT extends MajorRecord {
     public void clearInventoryItems() {
 	subRecords.getSubFormArray("INAM").clear();
     }
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        OTFT e = this;
+        if (!(no == null && bo == null && (no instanceof OTFT) && (bo instanceof OTFT))) {
+            final OTFT ne = (OTFT) no;
+            final OTFT be = (OTFT) bo;
+            SubRecords sList = e.subRecords;
+            SubRecords nsList = ne.subRecords;
+            SubRecords bsList = be.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return e;
+    }
 }

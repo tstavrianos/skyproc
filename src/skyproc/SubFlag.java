@@ -85,4 +85,26 @@ class SubFlag extends SubRecordTyped {
 	hash = 89 * hash + Objects.hashCode(this.flags);
 	return hash;
     }
+
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubFlags with logging capabilities.
+     *
+     * @param no The new SubFlag to be merged.
+     * @param bo The base SubFlag, to prevent base data from being
+     * re-merged.
+     * @return The modified SubFlag.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubFlag f = this;
+        if (!(no == null && bo == null && (no instanceof SubFlag) && (bo instanceof SubFlag))) {
+            final SubFlag nf = (SubFlag) no;
+            final SubFlag bf = (SubFlag) bo;
+            f.flags = Merger.merge(f.flags, nf.flags, bf.flags, getType());
+        }
+        return f;
+    }
 }

@@ -145,4 +145,30 @@ class SubData extends SubRecordTyped<byte[]> {
 	return new SubData(getType(), in);
     }
 
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubData with logging capabilities.
+     *
+     * @param no The new SubData to be merged.
+     * @param bo The base SubData, to prevent base data from being re-merged.
+     * @return The modified SubData.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubData d = this;
+        if (!(no == null && bo == null && (no instanceof SubData) && (bo instanceof SubData))) {
+            final SubData nd = (SubData) no;
+            final SubData bd = (SubData) bo;
+            if (!d.equals(nd) && !nd.equals(bd)) {
+                d = nd;
+                if (Merger.fullLogging) {
+                    Merger.logMerge(getType().toString(), nd.toString());
+                }
+            }
+        }
+        return d;
+    }
+
 }

@@ -330,4 +330,40 @@ public class FormID implements Comparable, Serializable {
 	    return master.compareTo(rhs.master);
 	}
     }
+
+	/**
+	 * Merges FormID's with logging capabilities.
+	 *
+	 * @param newform The new FormID to be merged.
+	 * @param baseform The base FormID, to prevent base data from being
+	 * re-merged.
+	 * @param formType The type of FormID.
+	 * @return The modified FormID.
+	 */
+	public FormID merge(FormID newform, FormID baseform, String formType) {
+		FormID formID = this;
+		if (!formID.equals(newform) && !newform.equals(baseform)) {
+			formID = newform;
+			if (Merger.fullLogging) {
+				Merger.logMerge(formType, formID.toString());
+			}
+		}
+		return formID;
+	}
+
+	/**
+	 * Merges FormID's with logging capabilities.  For typeless, generic forms.
+	 *
+	 * @param newform The new FormID to be merged.
+	 * @param baseform The base FormID, to prevent base data from being
+	 * re-merged.
+	 * @return The modified FormID.
+	 */
+	public FormID merge(FormID newform, FormID baseform) {
+		FormID formID = this;
+		if (!formID.equals(newform) && !newform.equals(baseform)) {
+			formID = newform;
+		}
+		return formID;
+	}
 }

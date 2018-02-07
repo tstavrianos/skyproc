@@ -271,6 +271,53 @@ public class MGEF extends MajorRecordDescription {
         ArrayList<String> getTypes() {
             return Record.getTypeList("DATA");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            DATA d = this;
+            if (!(no == null && bo == null && (no instanceof DATA) && (bo instanceof DATA))) {
+                final DATA nd = (DATA) no;
+                final DATA bd = (DATA) bo;
+                Merger.merge(d.baseCost, nd.baseCost, bd.baseCost, getType(), "base cost");
+                d.relatedID.merge(nd.relatedID, bd.relatedID, getType());
+                d.lightID.merge(nd.lightID, bd.lightID, getType());
+                d.hitShader.merge(nd.hitShader, bd.hitShader, getType());
+                d.enchantShader.merge(nd.enchantShader, bd.enchantShader, getType());
+                d.projectileID.merge(nd.projectileID, bd.projectileID, getType());
+                d.explosionID.merge(nd.explosionID, bd.explosionID, getType());
+                d.castingArt.merge(nd.castingArt, bd.castingArt, getType());
+                d.hitEffectArt.merge(nd.hitEffectArt, bd.hitEffectArt, getType());
+                d.impactData.merge(nd.impactData, bd.impactData, getType());
+                d.dualCastID.merge(nd.dualCastID, bd.dualCastID, getType());
+                d.enchantArtID.merge(nd.enchantArtID, bd.enchantArtID, getType());
+                d.equipAbility.merge(nd.equipAbility, bd.equipAbility, getType());
+                d.imageSpaceModID.merge(nd.imageSpaceModID, bd.imageSpaceModID, getType());
+                d.perkID.merge(nd.perkID, bd.perkID, getType());
+                Merger.merge(d.skillType, nd.skillType, bd.skillType, getType(), "skill type");
+                Merger.merge(d.resistanceAV, nd.resistanceAV, bd.resistanceAV, getType(), "resistance actor value");
+                //Merger.merge(d.unknown, nd.unknown, bd.unknown, getType(), "unknown");
+                Merger.merge(d.taperWeight, nd.taperWeight, bd.taperWeight, getType(), "taper weight");
+                Merger.merge(d.skillLevel, nd.skillLevel, bd.skillLevel, getType(), "skill level");
+                Merger.merge(d.area, nd.area, bd.area, getType(), "area");
+                Merger.merge(d.castingTime, nd.castingTime, bd.castingTime, getType(), "casting time");
+                Merger.merge(d.taperCurve, nd.taperCurve, bd.taperCurve, getType(), "taper curve");
+                Merger.merge(d.taperDuration, nd.taperDuration, bd.taperDuration, getType(), "taper duration");
+                Merger.merge(d.secondAVWeight, nd.secondAVWeight, bd.secondAVWeight, getType(), "second actor value weight");
+                Merger.merge(d.effectType, nd.effectType, bd.effectType, getType(), "effect type");
+                Merger.merge(d.primaryAV, nd.primaryAV, bd.primaryAV, getType(), "primary actor value");
+                Merger.merge(d.castType, nd.castType, bd.castType, getType(), "cast type");
+                Merger.merge(d.deliveryType, nd.deliveryType, bd.deliveryType, getType(), "delivery type");
+                Merger.merge(d.secondAV, nd.secondAV, bd.secondAV, getType(), "second actor value");
+                Merger.merge(d.skillUsageMult, nd.skillUsageMult, bd.skillUsageMult, getType(), "skill usage multiplier");
+                Merger.merge(d.dualCastScale, nd.dualCastScale, bd.dualCastScale, getType(), "dual cast scale");
+                Merger.merge(d.nullData, nd.nullData, bd.nullData, getType(), "null data");
+                Merger.merge(d.nullData2, nd.nullData2, bd.nullData2, getType(), "null data 2");
+                Merger.merge(d.scriptAIDataScore, nd.scriptAIDataScore, bd.scriptAIDataScore, getType(), "script AI data score");
+                Merger.merge(d.scriptAIDataDelayTime, nd.scriptAIDataDelayTime, bd.scriptAIDataDelayTime, getType(), "script AI data delay time");
+                Merger.merge(d.vol, nd.vol, bd.vol, getType(), "volume");
+            }
+            return d;
+        }
     }
 
     static class SNDD extends SubRecord {
@@ -330,6 +377,16 @@ public class MGEF extends MajorRecordDescription {
             return Record.getTypeList("SNDD");
         }
 
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            SNDD s = this;
+            if (!(no == null && bo == null && (no instanceof SNDD) && (bo instanceof SNDD))) {
+                final SNDD ns = (SNDD) no;
+                final SNDD bs = (SNDD) bo;
+                Merger.merge(s.sounds, ns.sounds, bs.sounds, getType(), "sounds");
+            }
+            return s;
+        }
     }
 
     public static class Sound {
@@ -1312,4 +1369,20 @@ public class MGEF extends MajorRecordDescription {
         subRecords.getSubList("CTDA").remove(c);
     }
 
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        MGEF r = this;
+        if (!(no == null && bo == null && (no instanceof MGEF) && (bo instanceof MGEF))) {
+            final MGEF nr = (MGEF) no;
+            final MGEF br = (MGEF) bo;
+            SubRecords sList = r.subRecords;
+            SubRecords nsList = nr.subRecords;
+            SubRecords bsList = br.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return r;
+    }
 }

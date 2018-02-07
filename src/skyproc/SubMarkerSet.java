@@ -147,4 +147,32 @@ class SubMarkerSet<T extends SubRecord> extends SubRecord {
 	}
 	return true;
     }
+
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubMarkerSets with logging capabilities. This is not
+	 * intended for mainstream use.
+	 *
+	 * @param no The new SubMarkerSet to be merged.
+	 * @param bo The base SubMarkerSet, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubMarkerSet.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubMarkerSet<T> s = this;
+		if (!(no == null && bo == null && (no instanceof SubMarkerSet) && (bo instanceof SubMarkerSet))) {
+			final SubMarkerSet<T> ns = (SubMarkerSet<T>) no;
+			final SubMarkerSet<T> bs = (SubMarkerSet<T>) bo;
+			if (!s.equals(ns) && !ns.equals(bs)) {
+				s = ns;
+				if (Merger.fullLogging) {
+					Merger.logMerge(getType(), s.toString());
+				}
+			}
+		}
+		return s;
+	}
 }

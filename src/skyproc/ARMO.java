@@ -119,6 +119,18 @@ public class ARMO extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("DATA");
 	}
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            DATA e = this;
+            if (!(no == null && bo == null && (no instanceof DATA) && (bo instanceof DATA))) {
+                final DATA ne = (DATA) no;
+                final DATA be = (DATA) bo;
+                Merger.merge(e.value, ne.value, be.value, getType(), "value");
+                Merger.merge(e.weight, ne.weight, be.weight, getType(), "weight");
+            }
+            return e;
+        }
     }
 
     // Get/Set
@@ -446,5 +458,22 @@ public class ARMO extends MajorRecordDescription {
      */
     public void updateBodyTemplate(){
         getBodyTemplate().makeBod2(this);
+    }
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        ARMO a = this;
+        if (!(no == null && bo == null && (no instanceof ARMO) && (bo instanceof ARMO))) {
+            final ARMO na = (ARMO) no;
+            final ARMO ba = (ARMO) bo;
+            SubRecords sList = a.subRecords;
+            SubRecords nsList = na.subRecords;
+            SubRecords bsList = ba.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return a;
     }
 }

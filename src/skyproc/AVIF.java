@@ -247,4 +247,21 @@ public class AVIF extends MajorRecordDescription {
     public ArrayList<PerkReference> getPerkReferences() {
 	return subRecords.getSubList("PNAM").toPublic();
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		AVIF a = this;
+		if (!(no == null && bo == null && (no instanceof AVIF) && (bo instanceof AVIF))) {
+			final AVIF na = (AVIF) no;
+			final AVIF ba = (AVIF) bo;
+			SubRecords sList = a.subRecords;
+			SubRecords nsList = na.subRecords;
+			SubRecords bsList = ba.subRecords;
+			for (SubRecord s : sList) {
+				s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+			}
+		}
+		return a;
+	}
 }

@@ -136,6 +136,22 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         public void addSoundPair(SoundPair pair) {
             subRecords.getSubList("CSDI").add(pair);
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            SoundPackage o = this;
+            if (!(no == null && bo == null && (no instanceof SoundPackage) && (bo instanceof SoundPackage))) {
+                final SoundPackage na = (SoundPackage) no;
+                final SoundPackage ba = (SoundPackage) bo;
+                if (!o.equals(na) && !na.equals(ba)) {
+                    o = na;
+                    if (Merger.fullLogging) {
+                        Merger.logMerge(getType(), o.toString());
+                    }
+                }
+            }
+            return o;
+        }
     }
 
     /**
@@ -312,6 +328,22 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         public int getPreset() {
             return subRecords.getSubInt("TIAS").get();
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            TintLayer o = this;
+            if (!(no == null && bo == null && (no instanceof TintLayer) && (bo instanceof TintLayer))) {
+                final TintLayer nd = (TintLayer) no;
+                final TintLayer bd = (TintLayer) bo;
+                if (!o.equals(nd) && !no.equals(bd)) {
+                    o = nd;
+                    if (Merger.fullLogging) {
+                        Merger.logMerge(getType(), o.toString());
+                    }
+                }
+            }
+            return o;
+        }
     }
 
     static class DNAM extends SubRecord implements Serializable {
@@ -400,6 +432,39 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         ArrayList<String> getTypes() {
             return Record.getTypeList("DNAM");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            DNAM o = this;
+            if (!(no == null && bo == null && (no instanceof DNAM) && (bo instanceof DNAM))) {
+                final DNAM nd = (DNAM) no;
+                final DNAM bd = (DNAM) bo;
+                health = Merger.merge(o.health, nd.health, bd.stamina, getType(), "health");
+                magicka = Merger.merge(o.magicka, nd.magicka, bd.magicka, getType(), "magicka");
+                stamina = Merger.merge(o.stamina, nd.stamina, bd.stamina, getType(), "health");
+                fluff1 = Merger.merge(o.fluff1, nd.fluff1, bd.fluff1, getType(), "unknown");
+                fluff2 = Merger.merge(o.fluff2, nd.fluff2, bd.fluff2, getType(), "unknown");
+                farAwayDistance = Merger.merge(o.farAwayDistance, nd.farAwayDistance, bd.farAwayDistance, getType(), "far away distance");
+                gearedUpWeapons = Merger.merge(o.gearedUpWeapons, nd.gearedUpWeapons, bd.gearedUpWeapons, getType(), "geared up weapons");
+                for (Skill s : Skill.values()) {
+                    if (o.getSkillBase(s) != nd.getSkillBase(s) && nd.getSkillBase(s) != bd.getSkillBase(s)) {
+                        o.setSkillBase(s, nd.getSkillBase(s));
+                        if (Merger.fullLogging) {
+                            Merger.logMerge("Skills", s.toString(), o.toString());
+                        }
+                    }
+                }
+                for (Skill s : Skill.values()) {
+                    if (o.getSkillMod(s) != nd.getSkillMod(s) && nd.getSkillMod(s) != bd.getSkillMod(s)) {
+                        o.setSkillMod(s, nd.getSkillMod(s));
+                        if (Merger.fullLogging) {
+                            Merger.logMerge("Skill Mods", s.toString(), o.toString());
+                        }
+                    }
+                }
+            }
+            return o;
+        }
     }
 
     static class ACBS extends SubRecord implements Serializable {
@@ -477,6 +542,27 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         ArrayList<String> getTypes() {
             return Record.getTypeList("ACBS");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            ACBS a = this;
+            if (!(no == null && bo == null && (no instanceof ACBS) && (bo instanceof ACBS))) {
+                final ACBS na = (ACBS) no;
+                final ACBS ba = (ACBS) bo;
+                ACBSflags = Merger.merge(ACBSflags, na.ACBSflags, ba.ACBSflags, getType());
+                magickaOffset = Merger.merge(this.magickaOffset, na.magickaOffset, ba.magickaOffset, getType(), "magicka offset");
+                fatigueOffset = Merger.merge(this.fatigueOffset, na.fatigueOffset, ba.fatigueOffset, getType(), "fatigue offset");
+                level = Merger.merge(this.level, na.level, ba.level, getType(), "level");
+                minCalcLevel = Merger.merge(this.minCalcLevel, na.minCalcLevel, ba.minCalcLevel, getType(), "min calc level");
+                maxCalcLevel = Merger.merge(this.maxCalcLevel, na.maxCalcLevel, ba.maxCalcLevel, getType(), "max calc level");
+                speed = Merger.merge(this.speed, na.speed, ba.speed, getType(), "speed");
+                dispositionBase = Merger.merge(this.dispositionBase, na.dispositionBase, ba.dispositionBase, getType(), "disposition base");
+                healthOffset = Merger.merge(this.healthOffset, na.healthOffset, ba.healthOffset, getType(), "health offset");
+                bleedout = Merger.merge(this.bleedout, na.bleedout, ba.bleedout, getType(), "bleedout");
+                templateFlags = Merger.merge(templateFlags, na.templateFlags, ba.templateFlags, getType());
+            }
+            return a;
+        }
     }
 
     static class AIDT extends SubRecord implements Serializable {
@@ -553,6 +639,27 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         @Override
         ArrayList<String> getTypes() {
             return Record.getTypeList("AIDT");
+        }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            AIDT a = this;
+            if (!(no == null && bo == null && (no instanceof AIDT) && (bo instanceof AIDT))) {
+                final AIDT na = (AIDT) no;
+                final AIDT ba = (AIDT) bo;
+                aggression = (Aggression) Merger.merge(a.aggression, na.aggression, ba.aggression, getType(), "aggression");
+                confidence = (Confidence) Merger.merge(a.confidence, na.confidence, ba.confidence, getType(), "confidence");
+                morality = (Morality) Merger.merge(a.morality, na.morality, ba.morality, getType(), "morality");
+                assistance = (Assistance) Merger.merge(a.assistance, na.assistance, ba.assistance, getType(), "assistance");
+                mood = (Mood) Merger.merge(a.mood, na.mood, ba.mood, getType(), "mood");
+                energy = Merger.merge(a.energy, na.energy, ba.energy, getType(), "energy");
+                aggroRadiusBehavior = Merger.merge(a.aggroRadiusBehavior, na.aggroRadiusBehavior, ba.aggroRadiusBehavior, getType(), "aggroRadiusBehavior");
+                aggroWarn = Merger.merge(a.aggroWarn, na.aggroWarn, ba.aggroWarn, getType(), "aggroWarn");
+                aggroWarnAttack = Merger.merge(a.aggroWarnAttack, na.aggroWarnAttack, ba.aggroWarnAttack, getType(), "aggroWarnAttack");
+                aggroAttack = Merger.merge(a.aggroAttack, na.aggroAttack, ba.aggroAttack, getType(), "aggroAttack");
+                fluff = Merger.merge(a.fluff, na.fluff, ba.fluff, getType(), "unknown");
+            }
+            return a;
         }
     }
 
@@ -673,6 +780,23 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         ArrayList<String> getTypes() {
             return Record.getTypeList("ATKD");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            ATKD o = this;
+            if (!(no == null && bo == null && (no instanceof ATKD) && (bo instanceof ATKD))) {
+                final ATKD na = (ATKD) no;
+                final ATKD ba = (ATKD) bo;
+                if (!o.equals(na) && !na.equals(ba)) {
+                    o = na;
+                    if (Merger.fullLogging) {
+                        SPGlobal.log(getType() + ": ", "Merged " + getType() + " to " + o + " for "
+                                + Merger.currentRecord + " from Mod " + Merger.currentMod);
+                    }
+                }
+            }
+            return o;
+        }
     }
 
     static class NAM9 extends SubRecord implements Serializable {
@@ -770,6 +894,23 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         ArrayList<String> getTypes() {
             return Record.getTypeList("NAM9");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            NAM9 o = this;
+            if (!(no == null && bo == null && (no instanceof NAM9) && (bo instanceof NAM9))) {
+                final NAM9 nn = (NAM9) no;
+                final NAM9 bn = (NAM9) bo;
+                if (!o.equals(nn) && !nn.equals(bn)) {
+                    o = nn;
+                    if (Merger.fullLogging) {
+                        SPGlobal.log(getType() + ": ", "Merged " + getType() + " to " + o + " for "
+                                + Merger.currentRecord + " from Mod " + Merger.currentMod);
+                    }
+                }
+            }
+            return o;
+        }
     }
 
     static class NAMA extends SubRecord implements Serializable {
@@ -821,6 +962,23 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
         @Override
         ArrayList<String> getTypes() {
             return Record.getTypeList("NAMA");
+        }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            NAMA o = this;
+            if (!(no == null && bo == null && (no instanceof NAMA) && (bo instanceof NAMA))) {
+                final NAMA nn = (NAMA) no;
+                final NAMA bn = (NAMA) bo;
+                if (!o.equals(nn) && !nn.equals(bn)) {
+                    o = nn;
+                    if (Merger.fullLogging) {
+                        SPGlobal.log(getType() + ": ", "Merged " + getType() + " to " + o + " for "
+                                + Merger.currentRecord + " from Mod " + Merger.currentMod);
+                    }
+                }
+            }
+            return o;
         }
     }
 
@@ -1579,7 +1737,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
      * Returns the group of factions assigned to the NPC. Changing this group by
      * adding or removing factions will affect that NPC.
      *
-     * @see SubRecordList
+     * @see //SubRecordList
      * @return The group of factions assigned to the NPC.
      */
     public ArrayList<SubFormInt> getFactions() {
@@ -1685,7 +1843,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Returns the base value of the skill represented by the given enum.
      *
-     * @see Skills
+     * @see //Skills
      * @param skill The enum of the skill to return the base value of.
      * @return The base value of the skill represented by the given enum.
      */
@@ -1696,7 +1854,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Sets the base value of the skill represented by the given enum.
      *
-     * @see Skills
+     * @see //Skills
      * @param skill The enum of the skill to set to the value.
      * @param value Sets the base value of the skill to this value.
      */
@@ -1710,7 +1868,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Returns the mod value of the skill represented by the given enum.
      *
-     * @see Skills
+     * @see //Skills
      * @param skill The enum of the skill to return the mod value of.
      * @return The mod value of the skill represented by the given enum.
      */
@@ -1721,7 +1879,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Sets the mod value of the skill represented by the given enum.
      *
-     * @see Skills
+     * @see //Skills
      * @param skill The enum of the skill to set to the value.
      * @param value Sets the mod value of the skill to this value.
      */
@@ -1799,7 +1957,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Returns the value of the stat data represented by the given enum.
      *
-     * @see Stat_Values
+     * @see //Stat_Values
      * @param stat The enum of the stat data to return.
      * @return The value of the stat data represented by the given enum.
      */
@@ -1827,7 +1985,7 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
     /**
      * Sets the value of the stat data represented by the given enum.
      *
-     * @see Stat_Values
+     * @see //Stat_Values
      * @param stat The enum of the stat data to set to the value.
      * @param value Sets the value of the stat data to this value.
      */
@@ -2876,5 +3034,34 @@ public class NPC_ extends MajorRecordNamed implements Serializable {
      */
     public KeywordSet getKeywordSet() {
         return subRecords.getKeywords();
+    }
+
+    SubList getCOCT() {return subRecords.getSubList("COCT");}
+    SubList getSNAM() {return subRecords.getSubList("SNAM");}
+    SubList getPRKZ() {return subRecords.getSubList("PRKZ");}
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        NPC_ n = this;
+        if (!(no == null && bo == null && (no instanceof NPC_) && (bo instanceof NPC_))) {
+            NPC_ nn = (NPC_) no;
+            NPC_ bn = (NPC_) bo;
+            SubRecords sList = n.subRecords;
+            SubRecords nsList = nn.subRecords;
+            SubRecords bsList = bn.subRecords;
+            for (SubRecord s : sList) {
+                if (s.equals(n.getCOCT())) {
+                    n.getCOCT().mergeList(nn.getCOCT(), bn.getCOCT());
+                } else if (s.equals(n.getSNAM())) {
+                    n.getSNAM().mergeList(nn.getSNAM(), bn.getSNAM());
+                } else if (s.equals(n.getPRKZ())) {
+                    n.getPRKZ().mergeListSFISpecial(nn.getPRKZ(), bn.getPRKZ());
+                } else {
+                    s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+                }
+            }
+        }
+        return n;
     }
 }

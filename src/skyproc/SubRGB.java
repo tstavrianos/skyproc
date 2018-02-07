@@ -139,4 +139,31 @@ class SubRGB extends SubRecordTyped {
 		return b;
 	}
     }
+
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubRGBs with logging capabilities.
+	 *
+	 * @param no The new SubRGB to be merged.
+	 * @param bo The base SubRGB, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubRGB.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubRGB rgb = this;
+		if (!(no == null && bo == null && (no instanceof SubRGB) && (bo instanceof SubRGB))) {
+			final SubRGB nrgb = (SubRGB) no;
+			final SubRGB brgb = (SubRGB) bo;
+			if (!rgb.equals(nrgb) && !nrgb.equals(brgb)) {
+				rgb = nrgb;
+				if (Merger.fullLogging) {
+					Merger.logMerge(getType(), rgb.toString());
+				}
+			}
+		}
+		return rgb;
+	}
 }

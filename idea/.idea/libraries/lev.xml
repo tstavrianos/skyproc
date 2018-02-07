@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../lev/Lev Library Project/dist/lev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

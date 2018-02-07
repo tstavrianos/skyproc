@@ -128,4 +128,30 @@ class SubString extends SubRecordTyped<String> {
 	return out;
     }
 
+	/*
+	 * SkyBash methods.
+	 */
+	/**
+	 * Merges straight SubStrings with logging capabilities.
+	 *
+	 * @param no The new SubString to be merged in.
+	 * @param bo The base SubString, to prevent base data from being
+	 * re-merged.
+	 * @return The modified SubString.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		SubString s = this;
+		if (!(no == null && bo == null && (no instanceof SubString) && (bo instanceof SubString))) {
+			final SubString ns = (SubString) no;
+			final SubString bs = (SubString) bo;
+			if (!s.equals(ns) && !ns.equals(bs)) {
+				s = ns;
+				if (Merger.fullLogging) {
+					Merger.logMerge(getType(), s.toString());
+				}
+			}
+		}
+		return s;
+	}
 }

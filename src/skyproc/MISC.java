@@ -242,4 +242,21 @@ public class MISC extends MajorRecordNamed {
     public String getMessageImage() {
 	return subRecords.getSubString("MICO").print();
     }
+
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        MISC e = this;
+        if (!(no == null && bo == null && (no instanceof MISC) && (bo instanceof MISC))) {
+            final MISC ne = (MISC) no;
+            final MISC be = (MISC) bo;
+            SubRecords sList = e.subRecords;
+            SubRecords nsList = ne.subRecords;
+            SubRecords bsList = be.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return e;
+    }
 }

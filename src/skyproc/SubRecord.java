@@ -83,4 +83,22 @@ abstract class SubRecord<T> extends Record {
     Record getNew() {
 	return getNew("NULL");
     }
+
+    /**
+     * Merges straight SubRecords with logging capabilities.
+     *
+     * @param no The new SubRecord to be merged in.
+     * @param bo The base SubRecord, to prevent base data from being re-merged.
+     * @return The modified SubRecord.
+     */
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubRecord o = this;
+        if (!o.equals(no) && !no.equals(bo)) {
+            o = no;
+            if (Merger.fullLogging) {
+                Merger.logMerge((String)(getTypes().get(0)), o.toString());
+            }
+        }
+        return o;
+    }
 }

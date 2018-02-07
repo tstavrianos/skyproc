@@ -174,4 +174,31 @@ class SubForm extends SubRecordTyped<FormID> {
     SubRecord<FormID> translate(FormID in) {
 	return new SubForm(getType(), in);
     }
+
+    /*
+     * SkyBash methods.
+     */
+    /**
+     * Merges straight SubForms with logging capabilities.
+     *
+     * @param no The new SubForm to be merged.
+     * @param bo The base SubForm, to prevent base data from being
+     * re-merged.
+     * @return The modified SubForm.
+     */
+    @Override
+    public SubRecord merge(SubRecord no, SubRecord bo) {
+        SubForm f = this;
+        if (!(no == null && bo == null && (no instanceof SubForm) && (bo instanceof SubForm))) {
+            final SubForm nsf = (SubForm) no;
+            final SubForm bsf = (SubForm) bo;
+            if (!f.equals(nsf) && !nsf.equals(bsf)) {
+                f = nsf;
+                if (Merger.fullLogging) {
+                    Merger.logMerge((String)(getTypes().get(0)), f.toString());
+                }
+            }
+        }
+        return f;
+    }
 }

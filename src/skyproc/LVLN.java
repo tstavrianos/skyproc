@@ -88,4 +88,26 @@ public class LVLN extends LeveledRecord {
     public Model getModelData() {
 	return subRecords.getModel();
     }
+
+    /**
+     * Merges Major Records.
+     *
+     * @param no The new MajorRecord to be merged.
+     * @param bo The base MajorRecord, to prevent base data from being
+     * re-merged.
+     * @return The modified MajorRecord.
+     */
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        LVLN l = this;
+        if (!(no == null && bo == null && (no instanceof LVLN) && (bo instanceof LVLN))) {
+            final LVLN nl = (LVLN) no;
+            final LVLN bl = (LVLN) bo;
+            l.getModelData().merge(nl.getModelData(), bl.getModelData());
+            //l.MODL.merge(nl.MODL, bl.MODL);
+            //l.MODT.merge(nl.MODT, bl.MODT);
+        }
+        return l;
+    }
 }

@@ -122,6 +122,27 @@ public abstract class MagicItem extends MajorRecordDescription {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("SPIT");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			super.merge(no, bo);
+			SPIT s = this;
+			if (!(no == null && bo == null && (no instanceof SPIT) && (bo instanceof SPIT))) {
+				final SPIT nspit = (SPIT) no;
+				final SPIT bspit = (SPIT) bo;
+				Merger.merge(s.baseCost, nspit.baseCost, bspit.baseCost, getType(), "base cost");
+				Merger.merge(s.baseType, nspit.baseType, bspit.baseType, getType(), "base type");
+				Merger.merge(s.chargeTime, nspit.chargeTime, bspit.chargeTime, getType(), "charge time");
+				Merger.merge(s.castType, nspit.castType, bspit.castType, getType(), "cast type");
+				Merger.merge(s.targetType, nspit.targetType, bspit.targetType, getType(), "target type");
+				Merger.merge(s.castDuration, nspit.castDuration, bspit.castDuration, getType(), "cast duration");
+				Merger.merge(s.range, nspit.range, bspit.range, getType(), "cast duration");
+				Merger.merge(s.valid, nspit.valid, bspit.valid, getType(), "valid");
+				s.flags = Merger.merge(s.flags, nspit.flags, bspit.flags, getType());
+				s.perkType.merge(nspit.perkType, bspit.perkType, getType());
+			}
+			return s;
+		}
     }
 
     // Common Functions
@@ -198,10 +219,27 @@ public abstract class MagicItem extends MajorRecordDescription {
 	subRecords.getSubList("EFID").add(new MagicEffectRef(magicEffect.getForm()));
     }
 
+    SubList getEFID() {return subRecords.getSubList("EFID");}
+	SubData getOBND() {return subRecords.getSubData("OBND");}
+	KeywordSet getKeywordSet() {return subRecords.getKeywords();}
     /**
      * 
      */
     public void clearMagicEffects() {
 	subRecords.getSubList("EFID").clear();
     }
+
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		MagicItem m = this;
+		if (!(no == null && bo == null && (no instanceof MagicItem) && (bo instanceof MagicItem))) {
+			final MagicItem nmi = (MagicItem) no;
+			final MagicItem bmi = (MagicItem) bo;
+			m.getOBND().merge(nmi.getOBND(), bmi.getOBND());
+			m.getKeywordSet().merge(nmi.getKeywordSet(), bmi.getKeywordSet());
+			m.getEFID().merge(nmi.getEFID(), bmi.getEFID());
+		}
+		return m;
+	}
 }

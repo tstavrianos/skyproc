@@ -43,4 +43,29 @@ public abstract class MajorRecordDescription extends MajorRecordNamed {
     public void setDescription(String description) {
 	subRecords.setSubStringPointer("DESC", description);
     }
+
+    SubStringPointer getDESC() {return subRecords.getSubStringPointer("DESC");}
+
+    /**
+     * Merges Major Records with descriptions. Implements MajorRecordNamed's
+     * merger.
+     *
+     * @param no The new MajorRecordDescription to be merged.
+     * @param bo The base MajorRecordDescription, to prevent base data from
+     * being re-merged.
+     * @return The modified MajorRecordDescription.
+     */
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        MajorRecordDescription m = this;
+        if (!(no == null && bo == null && (no instanceof MajorRecordDescription) && (bo instanceof MajorRecordDescription))) {
+            final MajorRecordDescription nm = (MajorRecordDescription) no;
+            final MajorRecordDescription bm = (MajorRecordDescription) bo;
+            if (Merger.mTags.names) {
+                m.getDESC().merge(nm.getDESC(), bm.getDESC());
+            }
+        }
+        return m;
+    }
 }

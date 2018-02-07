@@ -263,7 +263,7 @@ abstract public class LeveledRecord extends MajorRecord implements Iterable<Leve
     /**
      * Checks a flag of the LVLN given by flag parameter.
      *
-     * @see LVLN_Flags
+     * @see //LVLN_Flags
      * @param flag LVLN_Flags enum representing the flag to check.
      * @return True if given flag is true.
      */
@@ -274,7 +274,7 @@ abstract public class LeveledRecord extends MajorRecord implements Iterable<Leve
     /**
      * Sets a flag of the LVLN given by flag parameter
      *
-     * @see LVLN_Flags
+     * @see //LVLN_Flags
      * @param flag LVLN_Flags enum representing the flag to set.
      * @param on Boolean to set flag to.
      */
@@ -479,4 +479,31 @@ abstract public class LeveledRecord extends MajorRecord implements Iterable<Leve
 	    }
 	}
     }
+
+    SubData getOBND() {return subRecords.getSubData("OBND");}
+	SubData getLVLD() {return subRecords.getSubData("LVLD");}
+	SubFlag getLVLF() {return subRecords.getSubFlag("LVLF");}
+
+	/**
+	 * Merges Major Records.
+	 *
+	 * @param no The new MajorRecord to be merged.
+	 * @param bo The base MajorRecord, to prevent base data from being
+	 * re-merged.
+	 * @return The modified MajorRecord.
+	 */
+	@Override
+	public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+		super.merge(no, bo);
+		LeveledRecord l = this;
+		if (!(no == null && bo == null && (no instanceof LeveledRecord) && (bo instanceof LeveledRecord))) {
+			final LeveledRecord nl = (LeveledRecord) no;
+			final LeveledRecord bl = (LeveledRecord) bo;
+			l.getOBND().merge(nl.getOBND(), bl.getOBND());
+			l.getLVLD().merge(nl.getLVLD(), bl.getLVLD());
+			l.getLVLF().merge(nl.getLVLF(), bl.getLVLF());
+			l.subRecords.getSubList("LVLO").mergeListLVLO(nl.subRecords.getSubList("LVLO"), bl.subRecords.getSubList("LVLO"), l);
+		}
+		return l;
+	}
 }

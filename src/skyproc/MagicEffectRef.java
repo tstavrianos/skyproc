@@ -128,6 +128,19 @@ public class MagicEffectRef extends SubShellBulkType {
 	ArrayList<String> getTypes() {
 	    return Record.getTypeList("EFIT");
 	}
+
+		@Override
+		public SubRecord merge(SubRecord no, SubRecord bo) {
+			EFIT e = this;
+			if (!(no == null && bo == null && (no instanceof EFIT) && (bo instanceof EFIT))) {
+				final EFIT ns = (EFIT) no;
+				final EFIT bs = (EFIT) bo;
+				Merger.merge(e.AOE, ns.AOE, bs.AOE, getType(), "AoE");
+				Merger.merge(e.magnitude, ns.magnitude, bs.magnitude, getType(), "magnitude");
+				Merger.merge(e.duration, ns.duration, bs.duration, getType(), "duration");
+			}
+			return e;
+		}
     }
 
     // Get/Set
@@ -222,4 +235,29 @@ public class MagicEffectRef extends SubShellBulkType {
     public void removeCondition(Condition c) {
 	subRecords.getSubList("CTDA").remove(c);
     }
+
+	SubForm getEFID() {return subRecords.getSubForm("EFID");}
+	SubList getCTDAs() {return subRecords.getSubList("CTDA");}
+	/**
+	 * Merges straight MagicEffectRefs with logging capabilities.
+	 *
+	 * @param no The new MagicEffectRef to be merged.
+	 * @param bo The base MagicEffectRef, to prevent base data from being
+	 * re-merged.
+	 * @return The modified MagicEffectRef.
+	 */
+	@Override
+	public SubRecord merge(SubRecord no, SubRecord bo) {
+		MagicEffectRef s = this;
+		if (!(no == null && bo == null && (no instanceof MagicEffectRef) && (bo instanceof MagicEffectRef))) {
+			final MagicEffectRef ns = (MagicEffectRef) no;
+			final MagicEffectRef bs = (MagicEffectRef) bo;
+			if (!s.equals(ns) && !ns.equals(bs)) {
+				s.getEFID().merge(ns.getEFID(), bs.getEFID());
+				s.getCTDAs().merge(ns.getCTDAs(), bs.getCTDAs());
+				s.getEFIT().merge(ns.getEFIT(), bs.getEFIT());
+			}
+		}
+		return s;
+	}
 }

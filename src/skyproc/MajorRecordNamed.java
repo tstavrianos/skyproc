@@ -39,4 +39,26 @@ public abstract class MajorRecordNamed extends MajorRecord implements Serializab
     public void setName(String in) {
 	subRecords.setSubStringPointer("FULL", in);
     }
+
+    SubStringPointer getFULL() {return subRecords.getSubStringPointer("FULL");}
+
+    /**
+     * Merges Major Records with names. Implements MajorRecord's merger.
+     *
+     * @param no The new MajorRecordNamed to be merged.
+     * @param bo The base MajorRecordNamed, to prevent base data from being
+     * re-merged.
+     * @return The modified MajorRecordNamed.
+     */
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        MajorRecordNamed m = this;
+        if (!(no == null && bo == null && (no instanceof MajorRecordNamed) && (bo instanceof MajorRecordNamed))) {
+            final MajorRecordNamed nm = (MajorRecordNamed) no;
+            final MajorRecordNamed bm = (MajorRecordNamed) bo;
+            m.getFULL().merge(nm.getFULL(), bm.getFULL());
+        }
+        return m;
+    }
 }

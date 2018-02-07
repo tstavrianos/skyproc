@@ -93,6 +93,21 @@ public class ALCH extends MagicItem {
         ArrayList<String> getTypes() {
             return Record.getTypeList("ENIT");
         }
+
+        @Override
+        public SubRecord merge(SubRecord no, SubRecord bo) {
+            ENIT e = this;
+            if (!(no == null && bo == null && (no instanceof ENIT) && (bo instanceof ENIT))) {
+                final ENIT ne = (ENIT) no;
+                final ENIT be = (ENIT) bo;
+                Merger.merge(e.value, ne.value, be.value, getType(), "value");
+                e.flags = Merger.merge(e.flags, ne.flags, be.flags, getType());
+                Merger.merge(e.addictionChance, ne.addictionChance, be.addictionChance, getType(), "addiction chance");
+                e.addiction.merge(ne.addiction, be.addiction, getType());
+                e.useSound.merge(ne.useSound, be.useSound, getType());
+            }
+            return e;
+        }
     }
 
     // Enums
@@ -337,5 +352,25 @@ public class ALCH extends MagicItem {
      */
     public Model getModelData() {
         return subRecords.getModel();
+    }
+
+    /*
+     * SkyBash functions.
+     */
+    @Override
+    public MajorRecord merge(MajorRecord no, MajorRecord bo) {
+        super.merge(no, bo);
+        ALCH a = this;
+        if (!(no == null && bo == null && (no instanceof ALCH) && (bo instanceof ALCH))) {
+            final ALCH na = (ALCH) no;
+            final ALCH ba = (ALCH) bo;
+            SubRecords sList = a.subRecords;
+            SubRecords nsList = na.subRecords;
+            SubRecords bsList = ba.subRecords;
+            for (SubRecord s : sList) {
+                s.merge(nsList.get(s.getType()), bsList.get(s.getType()));
+            }
+        }
+        return a;
     }
 }
