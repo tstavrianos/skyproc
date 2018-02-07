@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="skyproc">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../skyproc/idea/out/artifacts/skyproc_jar/skyproc.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
