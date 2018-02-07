@@ -10,62 +10,62 @@ import java.util.Scanner;
 public class ModTags {
 
     //Generic deactivate tag.
-    boolean Deactivate;
+    public boolean Deactivate;
     //All initially declared false until import statements are processed.
     //Actor booleans.
-    boolean ActorACBS = false;
-    boolean ActorAIDT = false;
-    boolean ActorAIPackages = false;
-    boolean ActorAIPackagesForceAdd = false;
-    boolean ActorAnimations = false;
-    boolean ActorCombatStyle = false;
-    boolean ActorDeathItem = false;
-    boolean ActorSpells = false;
-    boolean ActorSpellsForceAdd = false;
-    boolean ActorStats = false;
-    boolean ActorSkills = false;
-    boolean ActorFactions = false;
-    boolean ActorInventories = false;
-    boolean ActorFaces = false;
-    boolean ActorClass = false;
-    boolean ActorEyesOnly = false;
-    boolean ActorHairOnly = false;
-    boolean ActorRace = false;
-    boolean ActorFlags = false;
-    boolean ActorTemplateFlags = false;
-    boolean ActorPerks = false;
-    boolean ActorOutfits = false;
-    boolean ActorSkin = false;
-    boolean ActorTemplates = false;
-    boolean ActorVoice = false;
+    public boolean ActorACBS = false;
+    public boolean ActorAIDT = false;
+    public boolean ActorAIPackages = false;
+    public boolean ActorAIPackagesForceAdd = false;
+    public boolean ActorAnimations = false;
+    public boolean ActorCombatStyle = false;
+    public boolean ActorDeathItem = false;
+    public boolean ActorSpells = false;
+    public boolean ActorSpellsForceAdd = false;
+    public boolean ActorStats = false;
+    public boolean ActorSkills = false;
+    public boolean ActorFactions = false;
+    public boolean ActorInventories = false;
+    public boolean ActorFaces = false;
+    public boolean ActorClass = false;
+    public boolean ActorEyesOnly = false;
+    public boolean ActorHairOnly = false;
+    public boolean ActorRace = false;
+    public boolean ActorFlags = false;
+    public boolean ActorTemplateFlags = false;
+    public boolean ActorPerks = false;
+    public boolean ActorOutfits = false;
+    public boolean ActorSkin = false;
+    public boolean ActorTemplates = false;
+    public boolean ActorVoice = false;
     //Race tags
-    boolean RStatsF = false;
-    boolean RStatsM = false;
-    boolean BodySizeF = false;
-    boolean BodySizeM = false;
-    boolean BodyF = false;
-    boolean BodyM = false;
-    boolean eyes = false;
-    boolean Hair = false;
-    boolean RSpells = false;
-    boolean REars = false;
-    boolean RHead = false;
-    boolean VoiceF = false;
-    boolean VoiceM = false;
-    boolean RBody = false;
+    public boolean RStatsF = false;
+    public boolean RStatsM = false;
+    public boolean BodySizeF = false;
+    public boolean BodySizeM = false;
+    public boolean BodyF = false;
+    public boolean BodyM = false;
+    public boolean eyes = false;
+    public boolean Hair = false;
+    public boolean RSpells = false;
+    public boolean REars = false;
+    public boolean RHead = false;
+    public boolean VoiceF = false;
+    public boolean VoiceM = false;
+    public boolean RBody = false;
     //More universal tags.
-    boolean keywords = false;
-    boolean scripts = false;
-    boolean names = false;
+    public boolean keywords = false;
+    public boolean scripts = false;
+    public boolean names = false;
     //Graphics tags.
-    boolean Graphics = false;
+    public boolean Graphics = false;
     //Sounds
-    boolean Sounds = false;
-    boolean Stats = false;
+    public boolean Sounds = false;
+    public boolean Stats = false;
     //Leveled Lists
-    boolean Delev = false;
+    public boolean Delev = false;
     //Data lock for imports, to lock and prevent anything from overriding it.  Normally off.
-    boolean lockData = false;
+    public boolean lockData = false;
 
     /**
      * Specialized constructor for tags.

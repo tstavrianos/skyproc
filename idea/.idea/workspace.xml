@@ -15,8 +15,8 @@
       <file leaf-file-name="Merger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/skyproc/Merger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="method#merge#0;class#Merger#0" expanded="false" />
                 <element signature="method#merge#1;class#Merger#0" expanded="false" />
@@ -37,22 +37,191 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SUMprogram.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SUMprogram.java">
+      <file leaf-file-name="MajorRecordDescription.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecordDescription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="692" column="0" lean-forward="true" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SPSettingPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPSettingPanel.java">
+      <file leaf-file-name="SubList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/SubList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="-410">
+              <caret line="521" column="19" lean-forward="false" selection-start-line="521" selection-start-column="19" selection-end-line="521" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModTags.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/ModTags.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2067">
+              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+              <folding>
+                <element signature="method#ModTags#1;class#ModTags#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/skyproc/Mod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1517">
+              <caret line="498" column="7" lean-forward="true" selection-start-line="498" selection-start-column="7" selection-end-line="498" selection-end-column="7" />
+              <folding>
+                <element signature="docComment;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#Mod#0;class#Mod#0" expanded="false" />
+                <element signature="method#Mod#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#Mod#1;class#Mod#0" expanded="false" />
+                <element signature="method#Mod#2;class#Mod#0" expanded="false" />
+                <element signature="method#deleteStringsFiles#0;class#Mod#0" expanded="false" />
+                <element signature="method#init#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getNthMaster#0;class#Mod#0" expanded="false" />
+                <element signature="method#getNthMaster#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#numMasters#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#isEmpty#0;class#Mod#0" expanded="false" />
+                <element signature="method#isEmpty#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#exists#0;class#Mod#0" expanded="false" />
+                <element signature="method#exists#0;class#Mod#0" expanded="false" />
+                <element signature="method#addMaster#0;class#Mod#0" expanded="false" />
+                <element signature="method#closeStreams#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMajor#0;class#Mod#0" expanded="false" />
+                <element signature="method#getMajor#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMajor#1;class#Mod#0" expanded="false" />
+                <element signature="method#getMajor#1;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#makeCopy#0;class#Mod#0" expanded="false" />
+                <element signature="method#makeCopy#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#makeCopy#1;class#Mod#0" expanded="false" />
+                <element signature="method#makeCopy#1;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#makeCopy#2;class#Mod#0" expanded="false" />
+                <element signature="method#makeCopy#2;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getContainedTypes#0;class#Mod#0" expanded="false" />
+                <element signature="method#getContainedTypes#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#addRecord#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#print#0;class#Mod#0" expanded="false" />
+                <element signature="method#print#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#Mod#0" expanded="false" />
+                <element signature="method#allFormIDs#0;class#Mod#0" expanded="false" />
+                <element signature="method#openStringStreams#0;class#Mod#0" expanded="false" />
+                <element signature="method#addStream#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMastersStrings#0;class#Mod#0" expanded="false" />
+                <element signature="method#getMastersStrings#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMasters#0;class#Mod#0" expanded="false" />
+                <element signature="method#getMasters#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getGRUPs#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#keep#0;class#Mod#0" expanded="false" />
+                <element signature="method#keep#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#addAsOverrides#0;class#Mod#0" expanded="false" />
+                <element signature="method#addAsOverrides#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#addAsOverrides#1;class#Mod#0" expanded="false" />
+                <element signature="method#addAsOverrides#1;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#addAsOverrides#2;class#Mod#0" expanded="false" />
+                <element signature="method#addAsOverrides#2;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#addAsOverrides#3;class#Mod#0" expanded="false" />
+                <element signature="method#addAsOverrides#3;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#numRecords#0;class#Mod#0" expanded="false" />
+                <element signature="method#numRecords#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getRecords#0;class#Mod#0" expanded="false" />
+                <element signature="method#getRecords#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#contains#0;class#Mod#0" expanded="false" />
+                <element signature="method#contains#0;class#Mod#0" expanded="false" />
+                <element signature="method#getMasterIndex#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#export#0;class#Mod#0" expanded="false" />
+                <element signature="method#export#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#export#1;class#Mod#0" expanded="false" />
+                <element signature="method#export#1;class#Mod#0" expanded="false" />
+                <element signature="method#export#2;class#Mod#0" expanded="false" />
+                <element signature="e#23807#23862#0" expanded="false" />
+                <element signature="e#25286#25356#0" expanded="false" />
+                <element signature="docComment;method#exportMasterList#0;class#Mod#0" expanded="false" />
+                <element signature="method#exportMasterList#0;class#Mod#0" expanded="false" />
+                <element signature="method#addOutString#0;class#Mod#0" expanded="false" />
+                <element signature="method#addOutString#1;class#Mod#0" expanded="false" />
+                <element signature="method#genStringsPath#0;class#Mod#0" expanded="false" />
+                <element signature="method#sortMasters#0;class#Mod#0" expanded="false" />
+                <element signature="method#exportStringsFile#0;class#Mod#0" expanded="false" />
+                <element signature="method#validateListEntries#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#setAuthor#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getAuthor#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#setDescription#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getDescription#0;class#Mod#0" expanded="false" />
+                <element signature="method#parseData#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#isFlag#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#setFlag#0;class#Mod#0" expanded="false" />
+                <element signature="method#setFlag#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getLeveledCreatures#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getNPCs#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getQuests#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getImageSpaces#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getPerks#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getSpells#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getRaces#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getArmors#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getArmatures#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getTextureSets#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getWeapons#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getKeywords#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getFormLists#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMagicEffects#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getAlchemy#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getIngredients#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getAmmo#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getFactions#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getGameSettings#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getEnchantments#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getLeveledItems#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getActorValues#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getEncounterZones#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getGlobals#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getConstructibleObjects#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getMiscObjects#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getOutfits#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getHeadParts#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getProjectiles#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getLightingTemplates#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getBooks#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getWeathers#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getDialogs#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getDialogBranches#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getDialogViews#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getContainers#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getVoiceTypes#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getStatics#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getScrolls#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getName#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getInfo#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#getNameNoSuffix#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#compareTo#0;class#Mod#0" expanded="false" />
+                <element signature="method#compareTo#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#equals#0;class#Mod#0" expanded="false" />
+                <element signature="method#equals#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#remove#0;class#Mod#0" expanded="false" />
+                <element signature="method#remove#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#hashCode#0;class#Mod#0" expanded="false" />
+                <element signature="method#hashCode#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;method#iterator#0;class#Mod#0" expanded="false" />
+                <element signature="class#TES4#0;class#Mod#0" expanded="false" />
+                <element signature="method#TES4#0;class#TES4#0;class#Mod#0" expanded="false" />
+                <element signature="method#TES4#1;class#TES4#0;class#Mod#0" expanded="false" />
+                <element signature="method#parseData#0;class#TES4#0;class#Mod#0" expanded="false" />
+                <element signature="method#export#0;class#TES4#0;class#Mod#0" expanded="false" />
+                <element signature="class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="method#HEDR#0;class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="method#HEDR#1;class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="method#export#0;class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="method#parseData#0;class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="method#clear#0;class#HEDR#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+                <element signature="class#Mod_Flags#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;field#MASTER#0;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+                <element signature="docComment;field#STRING_TABLED#0;class#Mod_Flags#0;class#Mod#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +237,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>VNAM</find>
       <find>WKMV</find>
       <find>skill</find>
       <find>getData</find>
@@ -98,6 +266,7 @@
       <find>KeywordSet</find>
       <find>COCT</find>
       <find>type[0]</find>
+      <find>mTags</find>
     </findStrings>
     <replaceStrings>
       <replace>(String)(getTypes().get(0))</replace>
@@ -161,8 +330,8 @@
         <option value="$PROJECT_DIR$/../src/skyproc/RACE.java" />
         <option value="$PROJECT_DIR$/../src/skyproc/SPEL.java" />
         <option value="$PROJECT_DIR$/../src/skyproc/WEAP.java" />
-        <option value="$PROJECT_DIR$/../src/skyproc/Merger.java" />
         <option value="$PROJECT_DIR$/../src/skyproc/ModTags.java" />
+        <option value="$PROJECT_DIR$/../src/skyproc/Merger.java" />
       </list>
     </option>
   </component>
@@ -187,17 +356,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SkyProc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="skyproc" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -227,22 +386,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="skyproc" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="SkyProc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyproc" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="SkyProc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="skyproc" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lev/Lev Library Project/dist/lev.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -321,11 +483,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="988" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2956044" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -333,9 +495,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25201938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -346,6 +507,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -379,26 +541,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/LVLN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../src/skyproc/MagicEffectRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="259" column="9" lean-forward="true" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
-          <folding>
-            <element signature="method#MagicEffectRef#0;class#MagicEffectRef#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#MagicEffectRef#0" expanded="false" />
-            <element signature="method#equals#0;class#MagicEffectRef#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#MagicEffectRef#0" expanded="false" />
-            <element signature="method#hashCode#0;class#MagicEffectRef#0" expanded="false" />
-            <element signature="class#EFIT#0;class#MagicEffectRef#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -417,14 +563,6 @@
           <folding>
             <element signature="class#MajorFlags#0;class#MajorRecord#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecordDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="786">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="139" column="45" lean-forward="false" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="171" column="44" lean-forward="false" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,17 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="162" column="45" lean-forward="false" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="523" column="25" lean-forward="false" selection-start-line="523" selection-start-column="25" selection-end-line="523" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
           <caret line="268" column="80" lean-forward="false" selection-start-line="268" selection-start-column="80" selection-end-line="268" selection-end-column="80" />
-          <folding>
-            <element signature="class#AltTexture#0;class#AltTextures#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
           <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,9 +1783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-857">
           <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="class#SPELFlag#0;class#MagicItem#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1900,10 +2015,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModListing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#ModListing#0;class#ModListing#0" expanded="false" />
+            <element signature="method#ModListing#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#ModListing#1;class#ModListing#0" expanded="false" />
+            <element signature="method#ModListing#1;class#ModListing#0" expanded="false" />
+            <element signature="method#setString#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#ModListing#0" expanded="false" />
+            <element signature="method#print#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#printNoSuffix#0;class#ModListing#0" expanded="false" />
+            <element signature="method#export#0;class#ModListing#0" expanded="false" />
+            <element signature="method#parseData#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#ModListing#0" expanded="false" />
+            <element signature="method#equals#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#ModListing#0" expanded="false" />
+            <element signature="method#hashCode#0;class#ModListing#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#ModListing#0" expanded="false" />
+            <element signature="method#compareTo#0;class#ModListing#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SUMprogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="692" column="0" lean-forward="false" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPSettingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../src/skyproc/Mod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="32" selection-end-line="499" selection-end-column="40" />
+        <state relative-caret-position="1517">
+          <caret line="498" column="7" lean-forward="true" selection-start-line="498" selection-start-column="7" selection-end-line="498" selection-end-column="7" />
           <folding>
             <element signature="docComment;class#Mod#0" expanded="false" />
             <element signature="docComment;method#Mod#0;class#Mod#0" expanded="false" />
@@ -2055,44 +2218,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModListing.java">
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/MajorRecordDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#ModListing#0;class#ModListing#0" expanded="false" />
-            <element signature="method#ModListing#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#ModListing#1;class#ModListing#0" expanded="false" />
-            <element signature="method#ModListing#1;class#ModListing#0" expanded="false" />
-            <element signature="method#setString#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#print#0;class#ModListing#0" expanded="false" />
-            <element signature="method#print#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#printNoSuffix#0;class#ModListing#0" expanded="false" />
-            <element signature="method#export#0;class#ModListing#0" expanded="false" />
-            <element signature="method#parseData#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#ModListing#0" expanded="false" />
-            <element signature="method#equals#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#ModListing#0" expanded="false" />
-            <element signature="method#hashCode#0;class#ModListing#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#ModListing#0" expanded="false" />
-            <element signature="method#compareTo#0;class#ModListing#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModTags.java">
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/SubList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="-410">
+          <caret line="521" column="19" lean-forward="false" selection-start-line="521" selection-start-column="19" selection-end-line="521" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/skyproc/Merger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="method#merge#0;class#Merger#0" expanded="false" />
             <element signature="method#merge#1;class#Merger#0" expanded="false" />
@@ -2112,19 +2257,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SPSettingPanel.java">
+    <entry file="file://$PROJECT_DIR$/../src/skyproc/ModTags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/skyproc/gui/SUMprogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="692" column="0" lean-forward="true" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-2067">
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <folding>
+            <element signature="method#ModTags#1;class#ModTags#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2183,6 +2322,19 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>skyproc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

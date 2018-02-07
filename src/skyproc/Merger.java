@@ -12,7 +12,7 @@ public class Merger {
     public static String currentRecord;
     public static String currentMod;
     public static HashMap<FormID, LVLOList> leveledRecordMap = new HashMap<>();
-    static ModTags mTags;
+    public static ModTags mTags;
 
     public static float merge(float f, float newfloat, float basefloat, String type, String s) {
         if (f != newfloat && newfloat != basefloat) {
